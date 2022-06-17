@@ -14,7 +14,7 @@ class StudentGroupSchema(BaseSchema):
     educational_program: int
 
 
-class RatingsGroupSchema(BaseSchema):
+class RatingSchemaMixin(BaseSchema):
     user: int
     subject: int
     date_rating: date
@@ -25,6 +25,10 @@ class RatingsGroupSchema(BaseSchema):
     semester: int
     is_annual_assessment: bool
     teacher: int
+
+
+class RatingsGroupSchema(RatingSchemaMixin):
+    pass
 
 
 class RatingGroupSchema(SubjectsSchema):

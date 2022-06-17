@@ -1,8 +1,7 @@
 from django.http import HttpResponse
 from ninja import Router, UploadedFile, File, Form
 
-from student.services.convert_text_to_audio import ConvertTextToAudioService
-from student.utils import router
+from student.utils import router, generate_text_to_audio
 from student.models import StudentSource
 from student.security import AuthBearer
 from student.repositories.student_rating_by_semester import StudentRatingRepository
@@ -74,10 +73,10 @@ def delete_file(request, pk: int):
 @router(
     app=api,
     url_path='convert-text-to-audio',
-    method='POST',
+    method='POST'
 )
 def convert_text_to_audio(request, data: ConvertTextToAudioRequestSchema):
-    res = ConvertTextToAudioService(**data.dict(), student=request.auth.student)()
+    res = generate_text_to_audio(**data.dict(), student=request.auth.student)
     response = HttpResponse(res, content_type='audio/mpeg')
     response['Content-Disposition'] = 'attachment; filename="' + res.name + '"'
     return response

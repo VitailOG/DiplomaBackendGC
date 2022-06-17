@@ -9,9 +9,7 @@ from methodist.tests.api.schemas import (
 from methodist.models.choices import ControlChoice
 
 
-class SubjectsSchema(BaseSchema):
-    group: GroupSchema
-    educational_program: EducationalProgramSchema
+class SubjectSchemaMixin(BaseSchema):
     teachers: list[UserSchema]
     name_subject: str
     hours: int
@@ -21,6 +19,11 @@ class SubjectsSchema(BaseSchema):
     form_of_control: ControlChoice
     finally_subject: bool
     url_on_moodle: HttpUrl
+
+
+class SubjectsSchema(SubjectSchemaMixin):
+    group: GroupSchema
+    educational_program: EducationalProgramSchema
 
 
 class SubjectDetailSchema(BaseSchema):

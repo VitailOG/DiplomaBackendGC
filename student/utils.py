@@ -1,3 +1,4 @@
+from gtts import gTTS
 from functools import wraps
 from pathlib import Path
 
@@ -42,3 +43,10 @@ def gen_path(instance, filename):
         type_file = 'image'
 
     return Path('student', type_file, instance.student.user.username, filename)
+
+
+def generate_text_to_audio(student, text: str, lang: str = 'uk', slow: bool = False):
+    from student.models import StudentSource
+    audio = gTTS(text=text, lang=lang, slow=slow)
+    return StudentSource().save_audio(file=audio, student=student)
+

@@ -256,7 +256,7 @@ class GroupApi(MethodistView, ListModelMixin, GenericViewSet):
         return models.Group.objects.filter(educational_program__department=self.request.user.department)
 
     @action(methods=['get'], detail=True, url_path='detail/(?P<semester>\d+)')
-    def detail_group(self, *args, **kwargs):
+    def detail_group(self, *args, **kwargs): #
         """Стипендіальні рейтенги"""
         bool_value = True if self.request.query_params.get('is_all_students') == "true" else False
         students = models.Student.objects.rating_list(
@@ -275,7 +275,7 @@ class GroupApi(MethodistView, ListModelMixin, GenericViewSet):
         return Response(data=data, status=status.HTTP_200_OK)
 
     @action(methods=['post'], detail=False)
-    def create_extra_points(self, *args, **kwargs):
+    def create_extra_points(self, *args, **kwargs):  #
         """Створення додаткових балів"""
         serializer = self.get_serializer().do(data=self.request.data)
         self.perform_create(serializer=serializer)
@@ -297,7 +297,7 @@ class GroupApi(MethodistView, ListModelMixin, GenericViewSet):
         instance.delete()
 
     @action(methods=['patch'], detail=False, url_path='update/(?P<pk>\d+)')
-    def edit(self, request, *args, **kwargs):
+    def edit(self, request, *args, **kwargs):  #
         """Редагування додаткових балів"""
         instance = get_object_or_404(models.ExtraPoints, id=kwargs['pk'])
         serializer = self.get_serializer(instance, data=request.data, partial=True)

@@ -30,6 +30,7 @@ def test_student_list_methodist(methodist_api, students):
         status=status.HTTP_200_OK
     )
     validate_response = StudentListSchema(**response.data['results'][0])
+
     assert all([_['user']['department'] == DEPARTMENT_ID_TEST for _ in response.data['results']])
     assert validate_response
     assert response.data['count'] == 3
@@ -103,6 +104,7 @@ def test_update_student(methodist_api, students, group, present_student_data):
     )
 
     student.refresh_from_db()
+
     assert response.status_code == 200
     assert StudentListSchema(**response.data)
     assert students[0].year_entry == convert_str_to_date(_date=present_student_data['year_entry'])
