@@ -1,5 +1,5 @@
 from rest_framework_simplejwt.serializers import TokenObtainPairSerializer
-from rest_framework import status
+from rest_framework import status, serializers
 
 from methodist.constants import STUDENT_GROUP_ID
 
@@ -20,3 +20,8 @@ class CustomTokenObtainPairSerializer(TokenObtainPairSerializer):
                 }
 
         return data
+
+
+class ChangePasswordUserSerializer(serializers.Serializer):
+    old_password = serializers.CharField(required=True, max_length=32)
+    new_password = serializers.CharField(required=True, max_length=32)

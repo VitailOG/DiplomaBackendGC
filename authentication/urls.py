@@ -1,12 +1,12 @@
 from django.urls import path
-from rest_framework_simplejwt.views import TokenRefreshView
 
-from .views import CustomTokenObtainPairView, CreateTokensAPI
+from .views import CreateTokensAPI, TokenRefreshAPI, LogoutAPI, ChangePasswordUserAPI
 from django.utils.decorators import method_decorator
 
 
 urlpatterns = [
-    path('api/token/', CustomTokenObtainPairView.as_view()),
-    path('api/token/refresh/', TokenRefreshView.as_view()),
-    path('api/t/', CreateTokensAPI.as_view())
+    path('token/refresh/', TokenRefreshAPI.as_view()),
+    path('token/create/', CreateTokensAPI.as_view()),
+    path('logout/', LogoutAPI.as_view()),
+    path('change-password/', ChangePasswordUserAPI.as_view())
 ]
