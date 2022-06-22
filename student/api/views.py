@@ -1,7 +1,7 @@
 from django.http import HttpResponse
 from ninja import Router, UploadedFile, File, Form
 
-from student.utils import router, generate_text_to_audio
+from student.utils import router, generate_text_to_audio, check_type_file
 from student.models import StudentSource
 from student.security import AuthBearer
 from student.repositories.student_rating_by_semester import StudentRatingRepository
@@ -58,7 +58,8 @@ def upload_file(
         files: list[UploadedFile] = File(...),
         semester: int = Form(...)
 ):
-    StudentSource.objects.save_files(files=files, semester=semester, student=request.auth.student)
+    check_type_file(files)
+    # StudentSource.objects.save_files(files=files, semester=semester, student=request.auth.student)
 
 
 @router(

@@ -1,6 +1,7 @@
 from gtts import gTTS
 from functools import wraps
 from pathlib import Path
+from pdf2image import convert_from_path, convert_from_bytes
 
 from rest_framework.exceptions import PermissionDenied
 from ninja import Router
@@ -50,3 +51,10 @@ def generate_text_to_audio(student, text: str, lang: str = 'uk', slow: bool = Fa
     audio = gTTS(text=text, lang=lang, slow=slow)
     return StudentSource().save_audio(file=audio, student=student)
 
+
+def check_type_file(files: list) -> None:
+    # check speed
+    for i in files:
+        print(dir(i))
+        print(dir(i.file))
+        print(type(i.file.read()))

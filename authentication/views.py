@@ -8,8 +8,11 @@ from rest_framework_simplejwt.exceptions import TokenError, InvalidToken
 from rest_framework_simplejwt.views import TokenViewBase
 from rest_framework_simplejwt.serializers import TokenRefreshSerializer
 
-from authentication.serializers import CustomTokenObtainPairSerializer, ChangePasswordUserSerializer
-
+from authentication.serializers import (
+    CustomTokenObtainPairSerializer,
+    ChangePasswordUserSerializer,
+    ChangeUsernameSerializer
+)
 
 User = get_user_model()
 
@@ -73,6 +76,21 @@ class ChangePasswordUserAPI(GenericAPIView, APIView):
         if user.check_password(old_password):
             user.set_password(new_password)
             user.save()
-            return Response({"Updated": True})
+            return Response({"updated": True})
 
-        return Response({"Updated": False})
+        return Response({"updated": False})
+
+
+class ChangeUsernameAPI(GenericAPIView, APIView):
+    """ Change username for user """
+    serializer_class = ChangeUsernameSerializer
+    permission_classes = [IsAuthenticated]
+
+    def post(self, request, *args, **kwargs):
+        instance = self.get_serializer(data=request.data)
+        instance.is_valid(raise_exception=True)
+        new_username = instance.validated_data['new_username']
+        # update username
+        User.objects.filter(pk=request.user.id).update(username=new_username)
+        return Response({"updated": True})
+
