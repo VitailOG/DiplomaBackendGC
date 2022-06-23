@@ -1,7 +1,7 @@
 from gtts import gTTS
 from functools import wraps
 from pathlib import Path
-from pdf2image import convert_from_path, convert_from_bytes
+# from pdf2image import convert_from_path, convert_from_bytes
 
 from rest_framework.exceptions import PermissionDenied
 from ninja import Router

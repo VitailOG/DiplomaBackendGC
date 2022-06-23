@@ -43,7 +43,9 @@ INSTALLED_APPS = [
     'student.apps.StudentConfig',
     'authentication.apps.AuthenticationConfig',
     'analytics.apps.AnalyticsConfig',
-    'administration.apps.AdministrationConfig'
+    'administration.apps.AdministrationConfig',
+    'bot.apps.BotConfig',
+    'websocket.apps.WebsocketConfig'
 ]
 
 MIDDLEWARE = [
