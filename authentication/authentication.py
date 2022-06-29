@@ -20,6 +20,11 @@ class JWTAuthBackend(authentication.BaseAuthentication):
     authentication_header_prefix = 'Bearer'
 
     def authenticate(self, request, token=None, **kwargs) -> AuthResponse | None:
+        auth_cookie = request.COOKIES.get('access', None)
+
+        if auth_cookie is not None:
+            return self.cookies_auth(token=auth_cookie)
+
         auth_header = authentication.get_authorization_header(request).split()
         header_prefix = self.authentication_header_prefix.encode().lower()
 
@@ -28,6 +33,7 @@ class JWTAuthBackend(authentication.BaseAuthentication):
 
         if len(auth_header) == 1:
             raise exceptions.AuthenticationFailed('Invalid token header. No credential provided.')
+
         elif len(auth_header) > 2:
             raise exceptions.AuthenticationFailed(
                 'Invalid token header. Token string should not contain spaces'
@@ -40,6 +46,9 @@ class JWTAuthBackend(authentication.BaseAuthentication):
                 'Invalid token header. Token string should not contain invalid characters.'
             )
 
+        return self.authenticate_credential(token)
+
+    def cookies_auth(self, token: str) -> AuthResponse:
         return self.authenticate_credential(token)
 
     def authenticate_credential(self, token: str) -> AuthResponse:

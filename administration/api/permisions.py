@@ -3,4 +3,4 @@ from GradeBookGC_BACKEND.settings import PermissionGroupChoice
 
 
 class MethodistPermission(BasePermission):
-    permission_name = PermissionGroupChoice.METHODIST.value
+    permission_name = PermissionGroupChoice.ADMINISTRATION.value

@@ -35,7 +35,8 @@ class Group(models.Model):
     educational_program = models.ForeignKey(
         'EducationalProgram',
         verbose_name="Освітня програма",
-        on_delete=models.CASCADE
+        on_delete=models.CASCADE,
+        related_name='group_ed_prog'
     )
 
     def __str__(self):
@@ -54,7 +55,8 @@ class EducationalProgram(models.Model):
     department = models.ForeignKey(
         Department,
         on_delete=models.CASCADE,
-        verbose_name="Відділення"
+        verbose_name="Відділення",
+        related_name='ed_prog_department'
     )
 
     def __str__(self):

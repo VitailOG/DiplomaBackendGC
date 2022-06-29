@@ -19,6 +19,7 @@ User = get_user_model()
 
 class CustomTokenViewBase(TokenViewBase):
     """ Base api for tokens """
+
     def post(self, request, *args, **kwargs):
         serializer = self.get_serializer(data=request.data)
 
@@ -28,8 +29,8 @@ class CustomTokenViewBase(TokenViewBase):
             raise InvalidToken(e.args[0])
 
         # tokens
-        access = serializer.validated_data.pop('access')
-        refresh = serializer.validated_data.pop('refresh')
+        access = serializer.validated_data.get('access')
+        refresh = serializer.validated_data.get('refresh')
 
         # create response instance
         response = Response(data=serializer.validated_data)
@@ -93,4 +94,3 @@ class ChangeUsernameAPI(GenericAPIView, APIView):
         # update username
         User.objects.filter(pk=request.user.id).update(username=new_username)
         return Response({"updated": True})
-

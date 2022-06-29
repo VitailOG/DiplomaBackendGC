@@ -6,7 +6,6 @@ class BasePermission(BP):
     permission_name = None
 
     def has_permission(self, request, view=None):
-
         req = getattr(request, 'auth')
 
         if not request.path.startswith('/student'):
