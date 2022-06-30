@@ -30,7 +30,7 @@ class CustomUserAdmin(UserAdmin):
         'group'
     )
 
-    inlines = [StudentTabAdmin]
+    # inlines = [StudentTabAdmin]
 
     fieldsets = (
         (_('Головні дані'), {

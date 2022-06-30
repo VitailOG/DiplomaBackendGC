@@ -25,7 +25,7 @@ def extra_point(subjects, students):
     )
 
 
-@pytest.fixture(autouse=True)
+@pytest.fixture
 def subjects(groups):
     return mixer.blend(
         'methodist.Subject',

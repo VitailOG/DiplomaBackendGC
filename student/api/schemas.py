@@ -57,3 +57,13 @@ class ConvertTextToAudioRequestSchema(Schema):
     text: str
     lang: str = 'uk'
     slow: bool = False
+
+
+class BadFileSchema(Schema):
+    name: str
+    message: str
+
+
+class FileStudentResponse(Schema):
+    bad_files: list[BadFileSchema] = []
+    success_count: int

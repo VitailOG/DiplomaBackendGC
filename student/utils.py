@@ -1,8 +1,10 @@
+from typing import NamedTuple
 from gtts import gTTS
 from functools import wraps
 from pathlib import Path
-# from pdf2image import convert_from_path, convert_from_bytes
+from PIL import Image, UnidentifiedImageError
 
+from django.core.files.uploadedfile import TemporaryUploadedFile
 from rest_framework.exceptions import PermissionDenied
 from ninja import Router
 from ninja.constants import NOT_SET
@@ -48,13 +50,46 @@ def gen_path(instance, filename):
 
 def generate_text_to_audio(student, text: str, lang: str = 'uk', slow: bool = False):
     from student.models import StudentSource
+    # convert text to audio
     audio = gTTS(text=text, lang=lang, slow=slow)
-    return StudentSource().save_audio(file=audio, student=student)
+    return StudentSource().save_audio(file=audio, student=student)  # save file
 
 
-def check_type_file(files: list) -> None:
-    # check speed
+class BadFile(NamedTuple):
+    name: str
+    message: str
+
+
+def convert_pdf_to_image():
+    ...
+
+
+def resize_image():
+    ...
+
+
+def check_type_file(files: list) -> tuple[list[BadFile], list[TemporaryUploadedFile]]:
+    """ Function check file, if file is image continue, if file is pdf convert to image, else pass """
+    bad_files = []
+    good_files = []
+
     for i in files:
-        print(dir(i))
-        print(dir(i.file))
-        print(type(i.file.read()))
+        try:
+            # check file is image
+            Image.open(i)
+        except UnidentifiedImageError:
+            suffix = Path(i.name).suffix
+
+            if suffix == '.pdf':
+                good_files.append(i)
+                continue
+
+            # add file whose type not image and pdf to list for show user
+            bad_files.append(
+                BadFile(name=i.name, message="File type not image or pdf, convert please file")
+            )
+        else:
+            # add correct file
+            good_files.append(i)
+
+    return bad_files, good_files

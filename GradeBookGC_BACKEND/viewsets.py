@@ -10,3 +10,8 @@ class BaseViewSet(
         GenericViewSet
 ):
     pass
+
+
+class MethodistView:
+    permission_classes = []
+

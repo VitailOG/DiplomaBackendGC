@@ -23,6 +23,7 @@ gTTS = "^2.2.4"
 pandas = "^1.4.2"
 pytest-cov = "^3.0.0"
 aiogram = "^2.21"
+Pillow = "^9.1.1"
 
 [tool.poetry.dev-dependencies]
 

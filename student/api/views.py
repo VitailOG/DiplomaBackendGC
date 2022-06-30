@@ -8,7 +8,8 @@ from student.repositories.student_rating_by_semester import StudentRatingReposit
 from student.api.schemas import (
     SemestersResponseSchema,
     StudentRatingsResponseSchema,
-    ConvertTextToAudioRequestSchema
+    ConvertTextToAudioRequestSchema,
+    FileStudentResponse
 )
 from methodist.models import Rating
 
@@ -51,15 +52,17 @@ def semesters_for_student(request, student_id: int = None):
 @router(
     app=api,
     url_path='upload-file-for-extra-points',
-    method='POST'
+    method='POST',
+    response=list[FileStudentResponse]
 )
 def upload_file(
         request,
         files: list[UploadedFile] = File(...),
         semester: int = Form(...)
 ):
-    check_type_file(files)
-    # StudentSource.objects.save_files(files=files, semester=semester, student=request.auth.student)
+    bad_files, good_files = check_type_file(files)
+    StudentSource.objects.save_files(files=good_files, semester=semester, student=request.auth.student)
+    return {"bad_files": bad_files, "success_count": len(good_files)}
 
 
 @router(
