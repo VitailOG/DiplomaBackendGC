@@ -62,20 +62,13 @@ class UpdateGroupStudentService:
                 ]
             )
 
-    def t(self):
-        print('start')
-        from time import sleep
-        sleep(3)
-        return 1
-
     def _next_obj(self, group: str) -> int:
-        # self.t()
         obj = list(filter(lambda x: x['name'] == group, self.groups))[0]
         return obj.get('id')
 
     def _change_group(self) -> None:
 
-        for student in self.students:
+        for student in getattr(self, 'students'):
 
             group_name = getattr(student.group, 'name', None)
             prefix = self._symbols_by_method('isalpha', group_name)

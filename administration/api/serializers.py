@@ -2,7 +2,7 @@ from django.contrib.auth import get_user_model
 from rest_framework.serializers import ModelSerializer
 
 from methodist.models import Department, EducationalProgram, Subject
-from methodist.api.serializers import GroupSerializer, SubjectSerializer
+from methodist.api.serializers import GroupSerializer
 
 User = get_user_model()
 

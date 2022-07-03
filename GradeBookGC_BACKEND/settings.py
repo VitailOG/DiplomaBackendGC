@@ -23,6 +23,8 @@ ALLOWED_HOSTS = ["192.168.0.102", '0.0.0.0', '127.0.0.1', '*']
 # Application definition
 
 INSTALLED_APPS = [
+    # 'jet or grappeli',
+
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -39,6 +41,8 @@ INSTALLED_APPS = [
     'drf_yasg',
     'debug_toolbar',
     'corsheaders',
+    # 'channels',
+    # 'celery',
 
     'methodist.apps.MethodistConfig',
     'student.apps.StudentConfig',

@@ -7,7 +7,7 @@ from rest_framework.viewsets import GenericViewSet
 from rest_framework.filters import OrderingFilter
 from django_filters.rest_framework import DjangoFilterBackend
 
-from GradeBookGC_BACKEND.viewsets import BaseViewSet
+from GradeBookGC_BACKEND.viewsets import BaseViewSet, SerializerClassMixin
 from GradeBookGC_BACKEND.pagination import BasePagination
 from methodist.api.permissions import MethodistPermission
 from methodist.api import serializers
@@ -20,7 +20,7 @@ class MethodistView:
     permission_classes = [MethodistPermission]
 
 
-class StudentApi(MethodistView, BaseViewSet):
+class StudentApi(SerializerClassMixin, MethodistView, BaseViewSet):
     """ API для студенів
         Ф-Ї:
             - Створення/Редагування/Видалення студентів
@@ -44,10 +44,14 @@ class StudentApi(MethodistView, BaseViewSet):
         'year_entry',
     ]
     lookup_field = "pk"
+    serializers_map = {
+        'default': serializers.StudentResponseSerializer,
+        'create_student': serializers.StudentBaseSerializer,
+        'update': serializers.StudentBaseSerializer,
+    }
 
     def get_queryset(self):
         return models.Student.objects.students(department=self.request.user.department)
-        # return models.Student.objects.all()
 
     @action(
         methods=['post'],
@@ -78,14 +82,6 @@ class StudentApi(MethodistView, BaseViewSet):
         educational_programs = models.EducationalProgram.objects.filter(department=self.request.user.department)
         data = serializers.EducationalProgramSerializer(educational_programs, many=True).data
         return Response(data=data, status=status.HTTP_200_OK)
-
-    def get_serializer_class(self):
-        serializers_class_map = {
-            'default': serializers.StudentResponseSerializer,
-            'create_student': serializers.StudentBaseSerializer,
-            'update': serializers.StudentBaseSerializer,
-        }
-        return serializers_class_map.get(self.action, serializers_class_map['default'])
 
     def update(self, request, *args, **kwargs):
         """Редагування студентів"""
@@ -140,7 +136,7 @@ class StudentApi(MethodistView, BaseViewSet):
         return Response(data=years, status=status.HTTP_200_OK)
 
 
-class SubjectApi(MethodistView, CreateModelMixin, BaseViewSet):
+class SubjectApi(SerializerClassMixin, MethodistView, CreateModelMixin, BaseViewSet):
     """ API для предметів
         Ф-Ї:
             - Створення/Видалення/Редагування/Детальних предметів
@@ -162,15 +158,15 @@ class SubjectApi(MethodistView, CreateModelMixin, BaseViewSet):
         'educational_program__name',
         'department__name'
     ]
+    serializers_map = {
+        'retrieve': serializers.SubjectSerializer,
+        'list': serializers.SubjectSerializer,
+        'default': serializers.SubjectActionSerializer,
+    }
 
     def get_queryset(self):
         if self.action != 'retrieve':
             return models.Subject.objects.subjects(self.request.user.department)
-
-    def get_serializer_class(self):
-        if self.action not in ("retrieve", "list"):
-            return serializers.SubjectActionSerializer
-        return serializers.SubjectSerializer
 
     def retrieve(self, request, *args, **kwargs):
         """Виведення дані на окремий предмет"""
@@ -243,7 +239,7 @@ class RatingApi(MethodistView, UpdateModelMixin, CreateModelMixin, GenericViewSe
         }
 
 
-class GroupApi(MethodistView, ListModelMixin, GenericViewSet):
+class GroupApi(SerializerClassMixin, MethodistView, ListModelMixin, GenericViewSet):
     """ API для груп
         Ф-Ї:
             - Виведення стипендіальних рейтингів
@@ -251,6 +247,11 @@ class GroupApi(MethodistView, ListModelMixin, GenericViewSet):
             - Створення/Редагування/Видалення додаткових балів
     """
     my_tags = ["METHODIST:GROUP"]
+    serializers_map = {
+        'retrieve': serializers.GroupSerializer,
+        'list': serializers.GroupSerializer,
+        'default': serializers.ExtraPointsSerializer,
+    }
 
     def get_queryset(self):
         return models.Group.objects.filter(educational_program__department=self.request.user.department)
@@ -308,8 +309,3 @@ class GroupApi(MethodistView, ListModelMixin, GenericViewSet):
     @staticmethod
     def perform_update(serializer):
         serializer.save()
-
-    def get_serializer_class(self):
-        if self.action in ("retrieve", "list"):
-            return serializers.GroupSerializer
-        return serializers.ExtraPointsSerializer

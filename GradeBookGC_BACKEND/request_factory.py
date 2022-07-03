@@ -41,8 +41,8 @@ class APITestRequestFactory(APIRequestFactory):
             force_authenticate(request, user=user)
 
         response = view.as_view(view_kwargs)(request, **detail_args)
-        print(response.status_code)
-        # assert response.status_code == expected
+
+        assert response.status_code == expected
 
         return response
 

@@ -1,6 +1,6 @@
 import pytest
-from django.db import IntegrityError
 
+from django.db import IntegrityError
 from rest_framework import status
 
 from methodist.tests.api.schemas.rating import RatingGroupSchema
@@ -23,7 +23,7 @@ def test_group(methodist_api, subjects, students, ratings):
     assert RatingGroupSchema(**res.data)
 
 
-def test_create_rating(methodist_api, students, subjects, users):
+def test_create_two_rating_for_student(methodist_api, students, subjects, users):
     data = {
       "user": students[0].id,
       "subject": subjects.id,
