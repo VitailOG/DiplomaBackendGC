@@ -90,6 +90,8 @@ class Student(LifecycleModel):
         null=True
     )
 
+    telegram_id = models.PositiveBigIntegerField(null=True, blank=True)
+
     def __str__(self):
         return f'{self.id} - {self.user.username}'
 

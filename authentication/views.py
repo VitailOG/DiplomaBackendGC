@@ -17,7 +17,11 @@ from authentication.serializers import (
 User = get_user_model()
 
 
-class CustomTokenViewBase(TokenViewBase):
+class SwaggerTags:
+    my_tags = ["ANY:AUTH"]
+
+
+class CustomTokenViewBase(SwaggerTags, TokenViewBase):
     """ Base api for tokens """
 
     def post(self, request, *args, **kwargs):
@@ -51,7 +55,7 @@ class TokenRefreshAPI(CustomTokenViewBase):
     serializer_class = TokenRefreshSerializer
 
 
-class LogoutAPI(APIView):
+class LogoutAPI(SwaggerTags, APIView):
     """ Remove tokens from cookies """
     def post(self, request, *args, **kwargs):
         response = HttpResponse()
@@ -60,7 +64,7 @@ class LogoutAPI(APIView):
         return response
 
 
-class ChangePasswordUserAPI(GenericAPIView, APIView):
+class ChangePasswordUserAPI(SwaggerTags, GenericAPIView, APIView):
     """ Change password """
     serializer_class = ChangePasswordUserSerializer
     permission_classes = [IsAuthenticated]
@@ -82,7 +86,7 @@ class ChangePasswordUserAPI(GenericAPIView, APIView):
         return Response({"updated": False})
 
 
-class ChangeUsernameAPI(GenericAPIView, APIView):
+class ChangeUsernameAPI(SwaggerTags, GenericAPIView, APIView):
     """ Change username for user """
     serializer_class = ChangeUsernameSerializer
     permission_classes = [IsAuthenticated]

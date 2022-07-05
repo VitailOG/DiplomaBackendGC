@@ -14,6 +14,7 @@ from methodist.api import serializers
 from methodist import models
 from methodist.constants import TEACHER_GROUP_ID
 from methodist.filters import StudentFilter, SubjectFilter
+from methodist.services.send_student_info_about_set_rating import SendInfoRatingService
 
 
 class MethodistView:
@@ -231,6 +232,15 @@ class RatingApi(MethodistView, UpdateModelMixin, CreateModelMixin, GenericViewSe
         subject = models.Subject.objects.detail_subject(subject_id=kwargs.get('subject_id'))
         data = serializers.SubjectSerializer(subject, context=self.get_serializer_context()).data
         return Response(data=data, status=status.HTTP_200_OK)
+
+    def create(self, request, *args, **kwargs):
+        SendInfoRatingService(
+            user_id=request.data.get('user'),
+            rating=request.data.get('rating_5'),
+            teacher_id=request.data.get('teacher'),
+            subject_id=request.data.get('subject'),
+        )()
+        return super().create(request, *args, **kwargs)
 
     def get_serializer_context(self):
         return {

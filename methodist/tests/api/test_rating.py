@@ -3,6 +3,7 @@ import pytest
 from django.db import IntegrityError
 from rest_framework import status
 
+from methodist.models import Rating
 from methodist.tests.api.schemas.rating import RatingGroupSchema
 from methodist.tests.api.urls import RatingUrl
 from methodist.api.views import RatingApi
@@ -24,6 +25,8 @@ def test_group(methodist_api, subjects, students, ratings):
 
 
 def test_create_two_rating_for_student(methodist_api, students, subjects, users):
+    assert not Rating.objects.exists()
+
     data = {
       "user": students[0].id,
       "subject": subjects.id,
@@ -44,6 +47,8 @@ def test_create_two_rating_for_student(methodist_api, students, subjects, users)
         view_kwargs={"post": "create"},
         status=status.HTTP_201_CREATED
     )
+
+    assert Rating.objects.exists()
 
     with pytest.raises(IntegrityError):
         methodist_api.post(

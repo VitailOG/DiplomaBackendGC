@@ -193,6 +193,9 @@ COMMON_RATING = 0.9
 
 DEVELOPER_USERNAME = 'admin'
 
+# telegram token
+API_TOKEN = '5464620404:AAGm2h6tf0WzvNsyD37SSKJZZRB9NIPp3Yk'
+
 # Internationalization
 # https://docs.djangoproject.com/en/3.2/topics/i18n/
 

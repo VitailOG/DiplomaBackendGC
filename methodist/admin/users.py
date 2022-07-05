@@ -107,6 +107,8 @@ class StudentAdmin(admin.ModelAdmin):
 
     list_filter = ('group', 'group__educational_program')
 
+    # telegram_id read only
+
     list_per_page = 10
 
     def get_queryset(self, request):
