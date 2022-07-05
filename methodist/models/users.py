@@ -47,6 +47,16 @@ class CustomUser(LifecycleModel, AbstractUser):
     #         self.student.delete()
 
 
+class Teacher(CustomUser):
+
+    class Meta:
+        proxy = True
+
+    @property
+    def get_fio_teacher(self):
+        return f"{self.last_name.title()} {self.first_name.title()} {self.surname.title()}"
+
+
 class Student(LifecycleModel):
     """ Model for students
     """
