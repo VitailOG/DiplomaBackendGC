@@ -22,6 +22,8 @@ class SendInfoRatingService:
         'subject': Subject
     }
 
+    MAIN_CONTENT = " {student}, У Вас - {rating} з {subject}, поставив її {fio}"
+
     def __init__(
         self, user_id: int, rating: int, teacher_id: int, subject_id: int
     ):
@@ -30,11 +32,11 @@ class SendInfoRatingService:
         self.student = self._get_obj(user_id, 'student')
         self.teacher = self._get_obj(teacher_id, 'user')
         self.name_subject = self._get_obj(subject_id, 'subject').name_subject
+
+        self.rating_5_or_12 = '12' if self.get_course(self.student.group.name) == 1 else '5'
         self.message = self._generate_message()
 
         self.telegram_id = self.student.telegram_id if hasattr(self.student, 'telegram_id') else None
-
-        self.rating_5_or_12 = '12' if self.get_course(self.student.group.name) == 1 else '5'
 
     def __call__(self) -> callable:
         return self._send_message()
@@ -50,8 +52,20 @@ class SendInfoRatingService:
             return model.objects.get(id=id)
 
     def _generate_message(self) -> str:
-        mess = " {student}, У Вас - {rating} з {subject}, поставив її {fio}"
 
+        message_prefix = self._get_message_prefix(rating=self.rating, rating_5_or_12=self.rating_5_or_12)
+
+        message = message_prefix + self.MAIN_CONTENT.format(
+            student=self.student.user.username,
+            rating=self.rating,
+            subject=self.name_subject,
+            fio=self.teacher.get_fio_teacher
+        )
+
+        return message
+
+    @staticmethod
+    def _get_message_prefix(rating: int, rating_5_or_12: str):
         prefix = {
             "5": {
                 (5,): "Хороший результат",
@@ -64,20 +78,9 @@ class SendInfoRatingService:
                 (1, 2, 3): "Вітаю з перездачею",
             }
         }
-
-        rat_sys = prefix[self.rating_5_or_12]
-
-        message_prefix = rat_sys[list(filter(lambda x: self.rating in x, rat_sys.keys()))[0]]
-
-        message = message_prefix + mess.format(
-            student=self.student.user.username,
-            rating=self.rating,
-            subject=self.name_subject,
-            fio=self.teacher.get_fio_teacher
-        )
-
-        return message
+        rat_sys = prefix[rating_5_or_12]
+        return rat_sys[list(filter(lambda x: rating in x, rat_sys.keys()))[0]]
 
     def _send_message(self) -> None:
         if self.telegram_id is not None:
-            async_to_sync(bot.send_message)(self.telegram_id, self.message)  # make celery task
+            async_to_sync(bot.send_message)(self.telegram_id, self.message)

@@ -14,7 +14,7 @@ from methodist.api import serializers
 from methodist import models
 from methodist.constants import TEACHER_GROUP_ID
 from methodist.filters import StudentFilter, SubjectFilter
-from methodist.services.send_student_info_about_set_rating import SendInfoRatingService
+from methodist.tasks import send_message_to_telegram_about_set_rating
 
 
 class MethodistView:
@@ -234,12 +234,12 @@ class RatingApi(MethodistView, UpdateModelMixin, CreateModelMixin, GenericViewSe
         return Response(data=data, status=status.HTTP_200_OK)
 
     def create(self, request, *args, **kwargs):
-        SendInfoRatingService(
-            user_id=request.data.get('user'),
-            rating=request.data.get('rating_5'),
-            teacher_id=request.data.get('teacher'),
-            subject_id=request.data.get('subject'),
-        )()
+        send_message_to_telegram_about_set_rating.delay(
+            request.data.get('user'),
+            request.data.get('rating_5'),
+            request.data.get('teacher'),
+            request.data.get('subject'),
+        )
         return super().create(request, *args, **kwargs)
 
     def get_serializer_context(self):

@@ -196,6 +196,14 @@ DEVELOPER_USERNAME = 'admin'
 # telegram token
 API_TOKEN = '5464620404:AAGm2h6tf0WzvNsyD37SSKJZZRB9NIPp3Yk'
 
+
+REDIS_HOST = 'localhost'
+REDIS_PORT = '6379'
+BROKER_URL = 'redis://' + REDIS_HOST + ':' + REDIS_PORT + '/0'
+BROKER_TRANSPORT_OPTIONS = {'visibility_timeout': 3600}
+CELERY_RESULT_BACKEND = 'redis://' + REDIS_HOST + ':' + REDIS_PORT + '/0'
+
+
 # Internationalization
 # https://docs.djangoproject.com/en/3.2/topics/i18n/
 
