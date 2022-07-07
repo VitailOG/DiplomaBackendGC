@@ -212,7 +212,9 @@ class SubjectApi(SerializerClassMixin, MethodistView, CreateModelMixin, BaseView
         return Response(data=names_subjects, status=status.HTTP_200_OK)
 
 
-class RatingApi(MethodistView, UpdateModelMixin, CreateModelMixin, GenericViewSet):
+class RatingApi(
+    MethodistView, UpdateModelMixin, CreateModelMixin, GenericViewSet
+):
     """ API для оцінок
         Ф-Ї:
             - Створення/Редавання оцінок

@@ -26,11 +26,11 @@ def extra_point(subjects, students):
 
 
 @pytest.fixture
-def subjects(groups):
+def subjects(groups, departments):
     return mixer.blend(
         'methodist.Subject',
         name_subject='Mатематика',
-        group_id=groups[0]['id']
+        group_id=groups[0]['id'],
     )
 
 
@@ -47,12 +47,12 @@ def ratings(subjects, groups, students):
 
 
 @pytest.fixture
-def data(methodist, group):
+def data(users, group):
     return {
         "name_subject": "new name",
         "group": group.id,
         "teachers": [
-            methodist.id
+            users[0].id
         ],
         "hours": 10,
         "semester": 1,

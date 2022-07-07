@@ -11,9 +11,6 @@ class BasePermission(BP):
         if not request.path.startswith('/student'):
             req = getattr(request, 'user')
 
-        print(self.permission_name)
-        print(req.group.name)
-
         return bool(
             req and req.is_authenticated and req.group.name == self.permission_name
         )
