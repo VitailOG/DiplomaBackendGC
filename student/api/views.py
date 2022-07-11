@@ -53,7 +53,7 @@ def semesters_for_student(request, student_id: int = None):
     app=api,
     url_path='upload-file-for-extra-points',
     method='POST',
-    # response=FileStudentResponse
+    response=FileStudentResponse
 )
 def upload_file(
         request,
@@ -61,8 +61,8 @@ def upload_file(
         semester: int = Form(...)
 ):
     bad_files, good_files = check_type_file(files)
-    # StudentSource.objects.save_files(files=good_files, semester=semester, student=request.auth.student)
-    # return {"bad_files": bad_files, "success_count": len(good_files)}
+    StudentSource.objects.save_files(files=good_files, semester=semester, student=request.auth.student)
+    return {"bad_files": bad_files, "success_count": len(good_files)}
 
 
 @router(

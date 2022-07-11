@@ -22,6 +22,19 @@ class SendInfoRatingService:
         'subject': Subject
     }
 
+    PREFIX = {
+        "5": {
+            (5,): "Хороший результат",
+            (3, 4): "Непоганий результат",
+            (1, 2): "Вітаю з перездачею",
+        },
+        "12": {
+            (10, 11, 12): "Хороший результат",
+            (4, 5, 6, 7, 8, 9): "Непоганий результат",
+            (1, 2, 3): "Вітаю з перездачею",
+        }
+    }
+
     MAIN_CONTENT = " {student}, У Вас - {rating} з {subject}, поставив її {fio}"
 
     def __init__(
@@ -64,21 +77,8 @@ class SendInfoRatingService:
 
         return message
 
-    @staticmethod
-    def _get_message_prefix(rating: int, rating_5_or_12: str):
-        prefix = {
-            "5": {
-                (5,): "Хороший результат",
-                (3, 4): "Непоганий результат",
-                (1, 2): "Вітаю з перездачею",
-            },
-            "12": {
-                (10, 11, 12): "Хороший результат",
-                (4, 5, 6, 7, 8, 9): "Непоганий результат",
-                (1, 2, 3): "Вітаю з перездачею",
-            }
-        }
-        rat_sys = prefix[rating_5_or_12]
+    def _get_message_prefix(self, rating: int, rating_5_or_12: str):
+        rat_sys = self.PREFIX[rating_5_or_12]
         return rat_sys[list(filter(lambda x: rating in x, rat_sys.keys()))[0]]
 
     def _send_message(self) -> None:

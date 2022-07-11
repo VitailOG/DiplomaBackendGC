@@ -1,5 +1,7 @@
 from django.contrib import admin
 from django.contrib.auth.models import Group as DjangoGroup
+from rest_framework_simplejwt.token_blacklist.admin import OutstandingTokenAdmin
+from rest_framework_simplejwt.token_blacklist.models import OutstandingToken
 
 from methodist.models import (
     Department,
@@ -111,6 +113,16 @@ class ExtraPointAdmin(admin.ModelAdmin):
     list_display = ("id", "__str__")
     list_display_links = ("id", "__str__")
 
+
+class CustomOutstandingTokenAdmin(OutstandingTokenAdmin):
+    """ Custom Outstanding Token Admin class """
+
+    def has_delete_permission(self, *args, **kwargs):
+        return True
+
+
+admin.site.unregister(OutstandingToken)
+admin.site.register(OutstandingToken, CustomOutstandingTokenAdmin)
 
 admin.site.register(Department)
 admin.site.register(EducationalProgram)

@@ -1,4 +1,4 @@
-from . import HandlerFactory
+from .base import HandlerFactory
 
 
 @HandlerFactory.register_handler('excel')

@@ -7,11 +7,13 @@ from GradeBookGC_BACKEND import settings
 from GradeBookGC_BACKEND.swagger import schema_view
 from student.api.views import api
 from analytics.api.views import api as analytics_api
+from trello.api.views import api as trello_api
 
 app = NinjaAPI()
 
 app.add_router('/', api)
 app.add_router('/analytics', analytics_api)
+app.add_router('/trello', trello_api)
 
 
 urlpatterns = [

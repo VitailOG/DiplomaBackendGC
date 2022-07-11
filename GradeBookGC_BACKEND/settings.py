@@ -33,7 +33,6 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'rest_framework',
-    'rest_framework.authtoken',
     'ninja',
     'rest_framework_simplejwt.token_blacklist',
     'rest_framework_simplejwt',
@@ -41,8 +40,6 @@ INSTALLED_APPS = [
     'drf_yasg',
     'debug_toolbar',
     'corsheaders',
-    # 'channels',
-    # 'celery',
 
     'methodist.apps.MethodistConfig',
     'student.apps.StudentConfig',
@@ -50,7 +47,8 @@ INSTALLED_APPS = [
     'analytics.apps.AnalyticsConfig',
     'administration.apps.AdministrationConfig',
     'bot.apps.BotConfig',
-    'websocket.apps.WebsocketConfig'
+    'websocket.apps.WebsocketConfig',
+    'trello.apps.TrelloConfig'
 ]
 
 MIDDLEWARE = [
@@ -64,7 +62,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 
-    # 'GradeBookGC_BACKEND.middlewares.Process500',
+    'GradeBookGC_BACKEND.middlewares.Process500',
 ]
 
 ROOT_URLCONF = 'GradeBookGC_BACKEND.urls'
