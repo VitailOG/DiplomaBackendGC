@@ -81,8 +81,8 @@ class RatingAdmin(admin.ModelAdmin):
         "semester"
     )
 
-    def has_add_permission(self, request):
-        return False
+    # def has_add_permission(self, request):
+    #     return False
 
     def get_queryset(self, request):
         queryset = super().get_queryset(
