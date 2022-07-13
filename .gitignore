@@ -2,4 +2,4 @@
 /.idea
 /requirements.txt
 /.media
-
+.env

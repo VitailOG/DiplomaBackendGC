@@ -2,6 +2,9 @@ import os
 from datetime import timedelta
 from pathlib import Path
 from enum import Enum
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -11,7 +14,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-3$qpv1*-wrkw900bq5s401dyk9s26tfci)go+hgfkr5(dvgh9b'
+# SECRET_KEY = 'django-insecure-3$qpv1*-wrkw900bq5s401dyk9s26tfci)go+hgfkr5(dvgh9b'
+SECRET_KEY = str(os.getenv('SECRET_KEY'))
 
 ALGORITHM = 'HS256'
 
@@ -198,11 +202,11 @@ COMMON_RATING = 0.9
 DEVELOPER_USERNAME = 'admin'
 
 # telegram token
-API_TOKEN = '5464620404:AAGm2h6tf0WzvNsyD37SSKJZZRB9NIPp3Yk'
+API_TOKEN = str(os.getenv('API_TOKEN'))
 
 
-REDIS_HOST = 'localhost'
-REDIS_PORT = '6379'
+REDIS_HOST = str(os.getenv('REDIS_HOST'))
+REDIS_PORT = str(os.getenv('REDIS_PORT'))
 BROKER_URL = 'redis://' + REDIS_HOST + ':' + REDIS_PORT + '/0'
 BROKER_TRANSPORT_OPTIONS = {'visibility_timeout': 3600}
 CELERY_RESULT_BACKEND = 'redis://' + REDIS_HOST + ':' + REDIS_PORT + '/0'
