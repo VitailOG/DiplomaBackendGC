@@ -51,7 +51,7 @@ class SendInfoRatingService:
 
         self.telegram_id = self.student.telegram_id if hasattr(self.student, 'telegram_id') else None
 
-    def __call__(self) -> callable:
+    def __call__(self):
         return self._send_message()
 
     @staticmethod
@@ -78,8 +78,11 @@ class SendInfoRatingService:
         return message
 
     def _get_message_prefix(self, rating: int, rating_5_or_12: str):
+        def contains(value):
+            return rating in value
+
         rat_sys = self.PREFIX[rating_5_or_12]
-        return rat_sys[list(filter(lambda x: rating in x, rat_sys.keys()))[0]]
+        return rat_sys[list(filter(contains, rat_sys.keys()))[0]]
 
     def _send_message(self) -> None:
         if self.telegram_id is not None:

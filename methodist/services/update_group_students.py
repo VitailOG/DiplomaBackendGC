@@ -63,7 +63,11 @@ class UpdateGroupStudentService:
             )
 
     def _next_obj(self, group: str) -> int:
-        obj = list(filter(lambda x: x['name'] == group, self.groups))[0]
+        def eq_group_name(value):
+            if value['name'] == group:
+                return value
+
+        obj = list(filter(eq_group_name, self.groups))[0]
         return obj.get('id')
 
     def _change_group(self) -> None:

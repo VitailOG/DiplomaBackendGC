@@ -11,8 +11,8 @@ class CountRatingSubject(Schema):
     """
     cnt: int
     rat: int
-    name: str
 
 
 class AnalyticDetailSubjectResponseSchema(Schema):
     cnt_rating: list[CountRatingSubject]
+    rating_title: list[str]

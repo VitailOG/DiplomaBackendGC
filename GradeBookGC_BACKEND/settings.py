@@ -25,6 +25,7 @@ ALLOWED_HOSTS = ["192.168.0.102", '0.0.0.0', '127.0.0.1', '*']
 INSTALLED_APPS = [
     # 'jet or grappeli',
 
+    'django.contrib.postgres',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -118,10 +119,15 @@ CORS_ALLOW_CREDENTIALS = True
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'gradebook',
+        'USER': 'developer',
+        'PASSWORD': '1111',
+        'HOST': 'localhost',
+        'PORT': 5432,
     }
 }
+
 
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': (

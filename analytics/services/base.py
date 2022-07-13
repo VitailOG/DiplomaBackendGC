@@ -1,3 +1,5 @@
+from abc import ABCMeta, abstractmethod
+
 from analytics.exceptions import DoesNotRegister
 
 
@@ -19,3 +21,10 @@ class HandlerFactory:
             cls.handlers[name] = klass
             return klass
         return inner
+
+
+class BaseCreator(metaclass=ABCMeta):
+
+    @abstractmethod
+    def save(self):
+        raise NotImplementedError

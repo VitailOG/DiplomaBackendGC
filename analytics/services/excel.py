@@ -1,6 +1,6 @@
-from .base import HandlerFactory
+from .base import HandlerFactory, BaseCreator
 
 
 @HandlerFactory.register_handler('excel')
-class ExcelService:
+class ExcelCreator(BaseCreator):
     ...

@@ -1,8 +1,6 @@
-import pandas as pd
-
-from .base import HandlerFactory
+from .base import HandlerFactory, BaseCreator
 
 
 @HandlerFactory.register_handler('pdf')
-class PdfService:
+class PdfCreator(BaseCreator):
     ...
