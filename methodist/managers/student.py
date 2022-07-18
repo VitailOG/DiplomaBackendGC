@@ -68,6 +68,16 @@ class StudentManager(Manager):
             group_id=group_id
         )
 
+    def get_values_about_student(self, group_id: int):
+        return self.student_info(
+            group_id=group_id
+        ).values(
+            'id',
+            'user__username',
+            'user__first_name',
+            'user__last_name',
+        )
+
     def data_student(self, fio: str, filter_by: FILTER_BY, department):
         """Виведення імя яба прізвища студенів"""
 

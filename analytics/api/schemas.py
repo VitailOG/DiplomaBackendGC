@@ -16,3 +16,10 @@ class CountRatingSubject(Schema):
 class AnalyticDetailSubjectResponseSchema(Schema):
     cnt_rating: list[CountRatingSubject]
     rating_title: list[str]
+
+
+class GenerateFileRequestSchema(Schema):
+    group_id: int
+    semester: int
+    subject_id: int
+    type_file: str

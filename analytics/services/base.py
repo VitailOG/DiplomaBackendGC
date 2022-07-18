@@ -26,5 +26,5 @@ class HandlerFactory:
 class BaseCreator(metaclass=ABCMeta):
 
     @abstractmethod
-    def save(self):
+    def save(self, *args, **kwargs):
         raise NotImplementedError

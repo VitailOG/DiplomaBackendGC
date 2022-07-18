@@ -43,3 +43,16 @@ class RatingManager(Manager):
                     Coalesce(Avg('rating_5'), 0), output_field=DecimalField()
                 )
             )['rating'] * Decimal(f'{settings.COMMON_RATING}')
+
+    def get_rating_info(self, subject_id: int, group_id: int, semester: int):
+        return self.filter(
+            subject_id=subject_id,
+            user__group_id=group_id,
+            semester=semester
+        ).values(
+            'user_id',
+            'rating_5',
+            'rating_12',
+            'credited',
+            'retransmission'
+        )

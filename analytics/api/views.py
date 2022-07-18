@@ -1,17 +1,16 @@
-from typing import Literal
-
 from ninja import Router
 
+from analytics.exceptions import DoesNotRegister
+from analytics.services import HandlerFactory
 from analytics.types import RATING_SYS
 from student.security import AuthBearer
 
-from analytics.api.schemas import AnalyticDetailSubjectResponseSchema
+from analytics.api.schemas import AnalyticDetailSubjectResponseSchema, GenerateFileRequestSchema
 from analytics.repositories.detail_subject import DetailSubjectRepository
 from analytics.utils import get_ratings_title
 
 api = Router(
-    # auth=AuthBearer(),
-    tags=['analytics']
+    auth=AuthBearer(), tags=['analytics']
 )
 
 
@@ -28,3 +27,22 @@ def group_detail(request, group_id: int, subject_id: int, rating_sys: RATING_SYS
         "cnt_rating": s,
         "rating_title": get_ratings_title(rating_sys)
     }
+
+
+@api.post('/analytic-group-by-subject/')
+def create_group_by_subject(request, request_data: GenerateFileRequestSchema):
+    data = request_data.dict()
+    data['user'] = request.auth  # set user in data
+    name = data.pop('type_file')  # remove and get type file
+
+    try:
+        HandlerFactory.handler(name, **data)()
+    except DoesNotRegister:
+        return {"Error": True}
+
+    return {"mеssage": "Повідомимо коли файл згенерується"}
+
+
+@api.post('/download-file/')
+def download_file(request, filename: str):
+    return {}
