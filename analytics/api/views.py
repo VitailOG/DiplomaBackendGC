@@ -1,3 +1,6 @@
+from pathlib import Path
+
+from django.http import HttpResponse
 from ninja import Router
 
 from analytics.exceptions import DoesNotRegister
@@ -40,9 +43,19 @@ def create_group_by_subject(request, request_data: GenerateFileRequestSchema):
     except DoesNotRegister:
         return {"Error": True}
 
-    return {"mеssage": "Повідомимо коли файл згенерується"}
+    return {"mеssage": "Повідомимо коли файл згенерується, зробити підсвітку чата на фронті"}
 
 
 @api.post('/download-file/')
 def download_file(request, filename: str):
-    return {}
+    file = Path(filename)
+    if not (file.exists() or file.is_file()):
+        return {"message": "file not exist or not file"}
+
+    name = Path(filename).name
+    res = Path(filename).open('rb')
+
+    response = HttpResponse(res, content_type='audio/mpeg')
+    response['Content-Disposition'] = 'attachment; filename="' + name + '"'
+    return response
+
