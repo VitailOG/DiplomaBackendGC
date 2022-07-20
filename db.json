@@ -1,0 +1,2528 @@
+[
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 2,
+    "fields": {
+      "user": 6,
+      "jti": "f4c7bb0adc434af9addabc744432dfe8",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NDIxMjUyOCwiaWF0IjoxNjU1NTcyNTI4LCJqdGkiOiJmNGM3YmIwYWRjNDM0YWY5YWRkYWJjNzQ0NDMyZGZlOCIsInVzZXJfaWQiOjZ9.XYhcFUVGz-pXu2QIy1BvLwv0-PigJ5Uog5gq28F4mws",
+      "created_at": "2022-06-18T17:15:28.852Z",
+      "expires_at": "2022-09-26T17:15:28Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 3,
+    "fields": {
+      "user": 6,
+      "jti": "7f742d1941b34dddb5349efb5d583b86",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NDIxMjc5NywiaWF0IjoxNjU1NTcyNzk3LCJqdGkiOiI3Zjc0MmQxOTQxYjM0ZGRkYjUzNDllZmI1ZDU4M2I4NiIsInVzZXJfaWQiOjZ9.9gOk3itzudHG130F_xten37XS9niXJFaFDY1cV6kDv0",
+      "created_at": "2022-06-18T17:19:57.575Z",
+      "expires_at": "2022-09-26T17:19:57Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 4,
+    "fields": {
+      "user": 6,
+      "jti": "d90b01a7c717437ea4e5f36c307bd83b",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NDIxMjgyOSwiaWF0IjoxNjU1NTcyODI5LCJqdGkiOiJkOTBiMDFhN2M3MTc0MzdlYTRlNWYzNmMzMDdiZDgzYiIsInVzZXJfaWQiOjZ9.MZpZyuNS2ieYQT4vYdWHuDwi5iAOVGqBbL4BI6NAyV4",
+      "created_at": "2022-06-18T17:20:29.603Z",
+      "expires_at": "2022-09-26T17:20:29Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 5,
+    "fields": {
+      "user": 6,
+      "jti": "ba8635fd06a4403db5d0733cb0127251",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NDIxMjg1NywiaWF0IjoxNjU1NTcyODU3LCJqdGkiOiJiYTg2MzVmZDA2YTQ0MDNkYjVkMDczM2NiMDEyNzI1MSIsInVzZXJfaWQiOjZ9.RefWgwDQwP6oOdc1FdLnCRzr6n8kHQV6sDBEDu8GKeM",
+      "created_at": "2022-06-18T17:20:57.907Z",
+      "expires_at": "2022-09-26T17:20:57Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 6,
+    "fields": {
+      "user": 6,
+      "jti": "5debc27de8114077992b578f254b844b",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NDIxMzAzNSwiaWF0IjoxNjU1NTczMDM1LCJqdGkiOiI1ZGViYzI3ZGU4MTE0MDc3OTkyYjU3OGYyNTRiODQ0YiIsInVzZXJfaWQiOjZ9.gU5i5VUsNFktAwlGQ2uhRaaMXlrRnqf3O8YOxMHIqDA",
+      "created_at": "2022-06-18T17:23:55.281Z",
+      "expires_at": "2022-09-26T17:23:55Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 7,
+    "fields": {
+      "user": 6,
+      "jti": "412716e64e5045a8be2d109523f285ba",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NDIxNDMxNiwiaWF0IjoxNjU1NTc0MzE2LCJqdGkiOiI0MTI3MTZlNjRlNTA0NWE4YmUyZDEwOTUyM2YyODViYSIsInVzZXJfaWQiOjZ9.k8m2W2xzxdCpH77a_fwvo6U8e_zan8IQ7zPEQbivHYA",
+      "created_at": "2022-06-18T17:45:16.764Z",
+      "expires_at": "2022-09-26T17:45:16Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 8,
+    "fields": {
+      "user": 6,
+      "jti": "81735d807c584fe891f2ad3b5ee368c3",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NDIxNDgyNiwiaWF0IjoxNjU1NTc0ODI2LCJqdGkiOiI4MTczNWQ4MDdjNTg0ZmU4OTFmMmFkM2I1ZWUzNjhjMyIsInVzZXJfaWQiOjZ9.KYqFPdwY0Ttt45wwaqbwHZ43fAd83l4gqMRmsyPC22E",
+      "created_at": "2022-06-18T17:53:46.106Z",
+      "expires_at": "2022-09-26T17:53:46Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 9,
+    "fields": {
+      "user": 1,
+      "jti": "7d03066bbb9544c38b06e5e608435a1e",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NDUzNDI5NSwiaWF0IjoxNjU1ODk0Mjk1LCJqdGkiOiI3ZDAzMDY2YmJiOTU0NGMzOGIwNmU1ZTYwODQzNWExZSIsInVzZXJfaWQiOjF9.pftEotIHTEHRSQg9hIFf0jhdlH-m9LA91fBvEISnT8E",
+      "created_at": "2022-06-22T10:38:15.654Z",
+      "expires_at": "2022-09-30T10:38:15Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 10,
+    "fields": {
+      "user": 1,
+      "jti": "c9aeea4c34ff4ff696b7cc81d9d3eb52",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NDUzNDU2OCwiaWF0IjoxNjU1ODk0NTY4LCJqdGkiOiJjOWFlZWE0YzM0ZmY0ZmY2OTZiN2NjODFkOWQzZWI1MiIsInVzZXJfaWQiOjF9.t7IOXlMxXv9hwTmsTfwq4ffcS8HChhtAlXsFiNAAcFQ",
+      "created_at": "2022-06-22T10:42:48.245Z",
+      "expires_at": "2022-09-30T10:42:48Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 11,
+    "fields": {
+      "user": 1,
+      "jti": "dce03243f7064246991dd4f3ca144b59",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NDUzNTEyNSwiaWF0IjoxNjU1ODk1MTI1LCJqdGkiOiJkY2UwMzI0M2Y3MDY0MjQ2OTkxZGQ0ZjNjYTE0NGI1OSIsInVzZXJfaWQiOjF9.n3OWgwcn729B1hb2_wQ2ovJkAiNe1_yxK6WQtNBc1pE",
+      "created_at": "2022-06-22T10:52:05.547Z",
+      "expires_at": "2022-09-30T10:52:05Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 12,
+    "fields": {
+      "user": 1,
+      "jti": "cf5d62d87f9945d1a3ed2927f98425e1",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NDUzNTEzMywiaWF0IjoxNjU1ODk1MTMzLCJqdGkiOiJjZjVkNjJkODdmOTk0NWQxYTNlZDI5MjdmOTg0MjVlMSIsInVzZXJfaWQiOjF9.BQbdbzzhkD1TXPcS9f3WdtK5d_B4iAdTIaLI0dxdgOg",
+      "created_at": "2022-06-22T10:52:13.750Z",
+      "expires_at": "2022-09-30T10:52:13Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 13,
+    "fields": {
+      "user": 1,
+      "jti": "12fee26a795244b7a9f81b49a71d4a30",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NDUzNzA5OCwiaWF0IjoxNjU1ODk3MDk4LCJqdGkiOiIxMmZlZTI2YTc5NTI0NGI3YTlmODFiNDlhNzFkNGEzMCIsInVzZXJfaWQiOjF9.13a3YDN3Fqyd_gLnn8hiIWOP-Pzo5uNdiEAzorsnjNU",
+      "created_at": "2022-06-22T11:24:58.964Z",
+      "expires_at": "2022-09-30T11:24:58Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 14,
+    "fields": {
+      "user": 1,
+      "jti": "6b40775ff79046f6bc5f4ec77378bb4a",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NDUzNzIwNSwiaWF0IjoxNjU1ODk3MjA1LCJqdGkiOiI2YjQwNzc1ZmY3OTA0NmY2YmM1ZjRlYzc3Mzc4YmI0YSIsInVzZXJfaWQiOjF9.VaNFkTx2FTC_MfXyXvkhYOBZYdzg-GydBZZAvSgohDk",
+      "created_at": "2022-06-22T11:26:45.544Z",
+      "expires_at": "2022-09-30T11:26:45Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 15,
+    "fields": {
+      "user": 6,
+      "jti": "6a26701f3cbe4d35ba4f1c19da4591bb",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NDUzNzI3MCwiaWF0IjoxNjU1ODk3MjcwLCJqdGkiOiI2YTI2NzAxZjNjYmU0ZDM1YmE0ZjFjMTlkYTQ1OTFiYiIsInVzZXJfaWQiOjZ9.3sYIqKTaI2OyY_k4NoZmijjTlUY82bCG_nYyFbupgFI",
+      "created_at": "2022-06-22T11:27:50.709Z",
+      "expires_at": "2022-09-30T11:27:50Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 16,
+    "fields": {
+      "user": 1,
+      "jti": "a684fda8719248409129f944f4d4e614",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NDk4MDI4NywiaWF0IjoxNjU2MzQwMjg3LCJqdGkiOiJhNjg0ZmRhODcxOTI0ODQwOTEyOWY5NDRmNGQ0ZTYxNCIsInVzZXJfaWQiOjF9.T2q7oH_C3R8LSrXlmz3OpnD5epK5xgQO-j29qkGrOd8",
+      "created_at": "2022-06-27T14:31:27.334Z",
+      "expires_at": "2022-10-05T14:31:27Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 17,
+    "fields": {
+      "user": 1,
+      "jti": "92a757cb76da448197ee013b5fd96d59",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NDk4MTIzNCwiaWF0IjoxNjU2MzQxMjM0LCJqdGkiOiI5MmE3NTdjYjc2ZGE0NDgxOTdlZTAxM2I1ZmQ5NmQ1OSIsInVzZXJfaWQiOjF9.Hq39nhmPHx7WzsdZf115SA4yFsQ6di4WXt24xV4GZfo",
+      "created_at": "2022-06-27T14:47:14.497Z",
+      "expires_at": "2022-10-05T14:47:14Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 18,
+    "fields": {
+      "user": 1,
+      "jti": "49e9813fa0344c67a2e3a0905092c0cc",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NDk4MjEyNiwiaWF0IjoxNjU2MzQyMTI2LCJqdGkiOiI0OWU5ODEzZmEwMzQ0YzY3YTJlM2EwOTA1MDkyYzBjYyIsInVzZXJfaWQiOjF9.NJOY_VKgjEDbjK7osSuT0zO1TmhYOIMwV1L4OR-hlUo",
+      "created_at": "2022-06-27T15:02:06.264Z",
+      "expires_at": "2022-10-05T15:02:06Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 19,
+    "fields": {
+      "user": 1,
+      "jti": "f4fe666a9ef44761b79f90430e7e29b9",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NDk4MjE3OCwiaWF0IjoxNjU2MzQyMTc4LCJqdGkiOiJmNGZlNjY2YTllZjQ0NzYxYjc5ZjkwNDMwZTdlMjliOSIsInVzZXJfaWQiOjF9.3Ptds57rS4JpOCMY9stNtNarVYvDYkZ45GNtiHm2i2o",
+      "created_at": "2022-06-27T15:02:58.021Z",
+      "expires_at": "2022-10-05T15:02:58Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 20,
+    "fields": {
+      "user": 1,
+      "jti": "271e89e83d7644baafa28f6f8d40423b",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NDk4MjI2NiwiaWF0IjoxNjU2MzQyMjY2LCJqdGkiOiIyNzFlODllODNkNzY0NGJhYWZhMjhmNmY4ZDQwNDIzYiIsInVzZXJfaWQiOjF9.pjc7unRnOBwAlcD-CxhQNGZDjKGHPyljz-XV8Mpw9p8",
+      "created_at": "2022-06-27T15:04:26.590Z",
+      "expires_at": "2022-10-05T15:04:26Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 21,
+    "fields": {
+      "user": 1,
+      "jti": "d190c452302e49adb46e83df7ebc67ec",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NDk4MjM5OSwiaWF0IjoxNjU2MzQyMzk5LCJqdGkiOiJkMTkwYzQ1MjMwMmU0OWFkYjQ2ZTgzZGY3ZWJjNjdlYyIsInVzZXJfaWQiOjF9.na0zZ0_BwNLj4z2k1rdt26pIIbJXs5BsG4iZRnRwuzk",
+      "created_at": "2022-06-27T15:06:39.628Z",
+      "expires_at": "2022-10-05T15:06:39Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 22,
+    "fields": {
+      "user": 1,
+      "jti": "24f24f861c9240afb1bc9ed1dbf59c9a",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NDk4MjQxNSwiaWF0IjoxNjU2MzQyNDE1LCJqdGkiOiIyNGYyNGY4NjFjOTI0MGFmYjFiYzllZDFkYmY1OWM5YSIsInVzZXJfaWQiOjF9.6rbjGzciYJlhmv6FqkuHkWEJPtoltByRZDhbZ58VsiY",
+      "created_at": "2022-06-27T15:06:55.343Z",
+      "expires_at": "2022-10-05T15:06:55Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 23,
+    "fields": {
+      "user": 1,
+      "jti": "fdd49d5decd146508fd53a10a985515f",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NDk4MjQxNiwiaWF0IjoxNjU2MzQyNDE2LCJqdGkiOiJmZGQ0OWQ1ZGVjZDE0NjUwOGZkNTNhMTBhOTg1NTE1ZiIsInVzZXJfaWQiOjF9.n_Qg0ODsLhFPtJLHb57_n97FT-5S9kEQV9yE-Y__SjM",
+      "created_at": "2022-06-27T15:06:56.660Z",
+      "expires_at": "2022-10-05T15:06:56Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 24,
+    "fields": {
+      "user": 1,
+      "jti": "c83d5b40c2044a80affab0c2f292db3a",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NDk4MjQxNywiaWF0IjoxNjU2MzQyNDE3LCJqdGkiOiJjODNkNWI0MGMyMDQ0YTgwYWZmYWIwYzJmMjkyZGIzYSIsInVzZXJfaWQiOjF9.6IustD2yYriSx-QnegpS5NMDoVEHgqOMBLyXDj-dUGo",
+      "created_at": "2022-06-27T15:06:57.355Z",
+      "expires_at": "2022-10-05T15:06:57Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 25,
+    "fields": {
+      "user": 1,
+      "jti": "4b831695b51e4d4589323739db5fc75e",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NDk4MjQxNywiaWF0IjoxNjU2MzQyNDE3LCJqdGkiOiI0YjgzMTY5NWI1MWU0ZDQ1ODkzMjM3MzlkYjVmYzc1ZSIsInVzZXJfaWQiOjF9.P9tnbAOBUHXJKk3A4XIizDLFICMlhAg1gUVrlZkPYjc",
+      "created_at": "2022-06-27T15:06:57.784Z",
+      "expires_at": "2022-10-05T15:06:57Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 26,
+    "fields": {
+      "user": 1,
+      "jti": "79f6264132894957a6fcb010b4dd1f87",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NDk4MjQyMywiaWF0IjoxNjU2MzQyNDIzLCJqdGkiOiI3OWY2MjY0MTMyODk0OTU3YTZmY2IwMTBiNGRkMWY4NyIsInVzZXJfaWQiOjF9.7h8nib8rfiU4fxiLRo7DgkN72hWveBoIOPGYl1qIcIc",
+      "created_at": "2022-06-27T15:07:03.208Z",
+      "expires_at": "2022-10-05T15:07:03Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 27,
+    "fields": {
+      "user": 1,
+      "jti": "1f22865cf8504a9db116f1a5600d4982",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NDk4MjQyNCwiaWF0IjoxNjU2MzQyNDI0LCJqdGkiOiIxZjIyODY1Y2Y4NTA0YTlkYjExNmYxYTU2MDBkNDk4MiIsInVzZXJfaWQiOjF9.yAfiJGJ7LMAcKZrO8gdawz5F2pGpG4XBwRywOQnXbJU",
+      "created_at": "2022-06-27T15:07:04.161Z",
+      "expires_at": "2022-10-05T15:07:04Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 28,
+    "fields": {
+      "user": 1,
+      "jti": "74b293fb3f5c456ea16e69ce943ff264",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NDk4MjQyNCwiaWF0IjoxNjU2MzQyNDI0LCJqdGkiOiI3NGIyOTNmYjNmNWM0NTZlYTE2ZTY5Y2U5NDNmZjI2NCIsInVzZXJfaWQiOjF9.hXGrw5Wbal2IpLDvRFrtdT5EwGvQRgYfI83Ed0AmXHs",
+      "created_at": "2022-06-27T15:07:04.577Z",
+      "expires_at": "2022-10-05T15:07:04Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 29,
+    "fields": {
+      "user": 1,
+      "jti": "e9086a621f3842bb850577c6d06df603",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NDk4MjQyNCwiaWF0IjoxNjU2MzQyNDI0LCJqdGkiOiJlOTA4NmE2MjFmMzg0MmJiODUwNTc3YzZkMDZkZjYwMyIsInVzZXJfaWQiOjF9.iBeqpNYryW7XFvnVocAbMPbpQW0-mR5_-S227OHOfPs",
+      "created_at": "2022-06-27T15:07:04.740Z",
+      "expires_at": "2022-10-05T15:07:04Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 30,
+    "fields": {
+      "user": 1,
+      "jti": "89ed4cbd15374bd396fab00775df83d4",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NDk4MjQ0MSwiaWF0IjoxNjU2MzQyNDQxLCJqdGkiOiI4OWVkNGNiZDE1Mzc0YmQzOTZmYWIwMDc3NWRmODNkNCIsInVzZXJfaWQiOjF9.3tjX0fRGYg5MK7UymXl3DJhvQ55r_boHVsD5B3MN8Ps",
+      "created_at": "2022-06-27T15:07:21.170Z",
+      "expires_at": "2022-10-05T15:07:21Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 31,
+    "fields": {
+      "user": 1,
+      "jti": "45c56fc9132343548d5a212811104d4d",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NDk4MjQ0MiwiaWF0IjoxNjU2MzQyNDQyLCJqdGkiOiI0NWM1NmZjOTEzMjM0MzU0OGQ1YTIxMjgxMTEwNGQ0ZCIsInVzZXJfaWQiOjF9.xhnWZgT-QL8ICVsZX7gAlvNT6lUUp_5jIKH8pNyYvb8",
+      "created_at": "2022-06-27T15:07:22.812Z",
+      "expires_at": "2022-10-05T15:07:22Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 32,
+    "fields": {
+      "user": 1,
+      "jti": "e9e966aca6434a369ddfa65c3891c3f1",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NDk4Mjg0MiwiaWF0IjoxNjU2MzQyODQyLCJqdGkiOiJlOWU5NjZhY2E2NDM0YTM2OWRkZmE2NWMzODkxYzNmMSIsInVzZXJfaWQiOjF9.lZgH0s03M3jlk-g2_61N976va2JJHF51UMELplgAcOU",
+      "created_at": "2022-06-27T15:14:02.897Z",
+      "expires_at": "2022-10-05T15:14:02Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 33,
+    "fields": {
+      "user": 1,
+      "jti": "3687ed41798b44ef93629499afade522",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NDk4Mjg1NCwiaWF0IjoxNjU2MzQyODU0LCJqdGkiOiIzNjg3ZWQ0MTc5OGI0NGVmOTM2Mjk0OTlhZmFkZTUyMiIsInVzZXJfaWQiOjF9.MVTsdcpq02DDm3_zKd4XHiPGGsSdC6DSw_Sr8BE06fw",
+      "created_at": "2022-06-27T15:14:14.066Z",
+      "expires_at": "2022-10-05T15:14:14Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 34,
+    "fields": {
+      "user": 1,
+      "jti": "76381543d1664a36a3f50cf54fb4370b",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NDk4Mjg1NCwiaWF0IjoxNjU2MzQyODU0LCJqdGkiOiI3NjM4MTU0M2QxNjY0YTM2YTNmNTBjZjU0ZmI0MzcwYiIsInVzZXJfaWQiOjF9.o8aFrGxKYPagtI7yNsQEu6tlNCl_E3lVCK0FwMIiX2E",
+      "created_at": "2022-06-27T15:14:14.711Z",
+      "expires_at": "2022-10-05T15:14:14Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 35,
+    "fields": {
+      "user": 1,
+      "jti": "2c34c34eaa8448338668cdb41fcbb800",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NDk4Mjg1OSwiaWF0IjoxNjU2MzQyODU5LCJqdGkiOiIyYzM0YzM0ZWFhODQ0ODMzODY2OGNkYjQxZmNiYjgwMCIsInVzZXJfaWQiOjF9.GadWucNLkcUfjabjTXVeznDDT539oyWAEBpvsyrzvpY",
+      "created_at": "2022-06-27T15:14:19.158Z",
+      "expires_at": "2022-10-05T15:14:19Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 36,
+    "fields": {
+      "user": 1,
+      "jti": "8e006d03f873464489094f0bd29fa638",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NDk4Mjg4MywiaWF0IjoxNjU2MzQyODgzLCJqdGkiOiI4ZTAwNmQwM2Y4NzM0NjQ0ODkwOTRmMGJkMjlmYTYzOCIsInVzZXJfaWQiOjF9.uA97iaGplnx_gJlceZ0nv_8Mh_I1_coQzfNSs-Ck134",
+      "created_at": "2022-06-27T15:14:43.639Z",
+      "expires_at": "2022-10-05T15:14:43Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 37,
+    "fields": {
+      "user": 1,
+      "jti": "9d81c9d2285e4b248d01068dc42fadb0",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NDk4MjkwMCwiaWF0IjoxNjU2MzQyOTAwLCJqdGkiOiI5ZDgxYzlkMjI4NWU0YjI0OGQwMTA2OGRjNDJmYWRiMCIsInVzZXJfaWQiOjF9.Mtw7VtH3nQT4zDwqUpdujYNPR0EpZFWHn1lM_8Y7k8c",
+      "created_at": "2022-06-27T15:15:00.753Z",
+      "expires_at": "2022-10-05T15:15:00Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 38,
+    "fields": {
+      "user": 1,
+      "jti": "05271d74df074595ba6a128b1f41bd74",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NDk4MjkwMSwiaWF0IjoxNjU2MzQyOTAxLCJqdGkiOiIwNTI3MWQ3NGRmMDc0NTk1YmE2YTEyOGIxZjQxYmQ3NCIsInVzZXJfaWQiOjF9.rhrFvjH5vMU65DsEKWm9P2oRCGFbQ8EK0CQL63-9_6Y",
+      "created_at": "2022-06-27T15:15:01.440Z",
+      "expires_at": "2022-10-05T15:15:01Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 39,
+    "fields": {
+      "user": 1,
+      "jti": "4504d7064c9442ff8791c7ea6f907d19",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NDk4MjkwMSwiaWF0IjoxNjU2MzQyOTAxLCJqdGkiOiI0NTA0ZDcwNjRjOTQ0MmZmODc5MWM3ZWE2ZjkwN2QxOSIsInVzZXJfaWQiOjF9.QiAcqGKE-OjhebvKKhVYmiEpvdAAaU7SCOB2BI27e98",
+      "created_at": "2022-06-27T15:15:01.567Z",
+      "expires_at": "2022-10-05T15:15:01Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 40,
+    "fields": {
+      "user": 1,
+      "jti": "1bc84f3a01184014a20742bba421a46b",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NDk4MjkwMSwiaWF0IjoxNjU2MzQyOTAxLCJqdGkiOiIxYmM4NGYzYTAxMTg0MDE0YTIwNzQyYmJhNDIxYTQ2YiIsInVzZXJfaWQiOjF9.e53k9-GDru8gisO6BJn-vRmEvY2_FRoAX7naqBo_YAA",
+      "created_at": "2022-06-27T15:15:01.758Z",
+      "expires_at": "2022-10-05T15:15:01Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 41,
+    "fields": {
+      "user": 1,
+      "jti": "f8f96858d40940dc8579b4a368425a00",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NDk4Mjk0MSwiaWF0IjoxNjU2MzQyOTQxLCJqdGkiOiJmOGY5Njg1OGQ0MDk0MGRjODU3OWI0YTM2ODQyNWEwMCIsInVzZXJfaWQiOjF9.eIk0biWB3zxX20UZs9Q3hYGNbZdK8S4jEF1_ggWIM0s",
+      "created_at": "2022-06-27T15:15:41.651Z",
+      "expires_at": "2022-10-05T15:15:41Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 42,
+    "fields": {
+      "user": 1,
+      "jti": "aa1e80e7b7424ccda66a408751f3d83b",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NDk4Mjk0MiwiaWF0IjoxNjU2MzQyOTQyLCJqdGkiOiJhYTFlODBlN2I3NDI0Y2NkYTY2YTQwODc1MWYzZDgzYiIsInVzZXJfaWQiOjF9.T_YdA-BLfRTByOURQ72vd7YUuCuIgY8kMEFHHSe3KOA",
+      "created_at": "2022-06-27T15:15:42.163Z",
+      "expires_at": "2022-10-05T15:15:42Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 43,
+    "fields": {
+      "user": 1,
+      "jti": "e46e06cff2e948f2a5bfd4aa49c23827",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NDk4Mjk0MiwiaWF0IjoxNjU2MzQyOTQyLCJqdGkiOiJlNDZlMDZjZmYyZTk0OGYyYTViZmQ0YWE0OWMyMzgyNyIsInVzZXJfaWQiOjF9.a8wImHzQv1-wa0PXgFyJMmAb5dOnPUcN0FmvyBfQSps",
+      "created_at": "2022-06-27T15:15:42.583Z",
+      "expires_at": "2022-10-05T15:15:42Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 44,
+    "fields": {
+      "user": 1,
+      "jti": "87a11dfe7bff4f369b1c87843c80301a",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NDk4Mjk0MywiaWF0IjoxNjU2MzQyOTQzLCJqdGkiOiI4N2ExMWRmZTdiZmY0ZjM2OWIxYzg3ODQzYzgwMzAxYSIsInVzZXJfaWQiOjF9.RLkQf2FjiSTK4cc3tGFHsCUfHMSqSvDReSV45jCrgwo",
+      "created_at": "2022-06-27T15:15:43.277Z",
+      "expires_at": "2022-10-05T15:15:43Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 45,
+    "fields": {
+      "user": 1,
+      "jti": "e2126198a381412fa7976adcd8a465cc",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NDk4Mjk4MSwiaWF0IjoxNjU2MzQyOTgxLCJqdGkiOiJlMjEyNjE5OGEzODE0MTJmYTc5NzZhZGNkOGE0NjVjYyIsInVzZXJfaWQiOjF9.tw26STM2CqAliNN7xnpS458CFNb2lumh7Wpyj4u80do",
+      "created_at": "2022-06-27T15:16:21.762Z",
+      "expires_at": "2022-10-05T15:16:21Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 46,
+    "fields": {
+      "user": 1,
+      "jti": "71f6ec03e1944844bc15129ba0b6e4e2",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NDk4MzAxNiwiaWF0IjoxNjU2MzQzMDE2LCJqdGkiOiI3MWY2ZWMwM2UxOTQ0ODQ0YmMxNTEyOWJhMGI2ZTRlMiIsInVzZXJfaWQiOjF9.tYfg4ynlM-aSFsSYXuwPXsrM-yrHYOp5MPhb-eQgBuk",
+      "created_at": "2022-06-27T15:16:56.942Z",
+      "expires_at": "2022-10-05T15:16:56Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 47,
+    "fields": {
+      "user": 1,
+      "jti": "c540d5663d6d431d979212318f97bc92",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NDk4MzEwNCwiaWF0IjoxNjU2MzQzMTA0LCJqdGkiOiJjNTQwZDU2NjNkNmQ0MzFkOTc5MjEyMzE4Zjk3YmM5MiIsInVzZXJfaWQiOjF9.vlTrsopOapZF7IYA1vJs_gL_uyozcAm1cUnZkaxbD24",
+      "created_at": "2022-06-27T15:18:24.825Z",
+      "expires_at": "2022-10-05T15:18:24Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 48,
+    "fields": {
+      "user": 1,
+      "jti": "01743ce3d87042f08e8b52dc4b23430f",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NDk4MzE2OCwiaWF0IjoxNjU2MzQzMTY4LCJqdGkiOiIwMTc0M2NlM2Q4NzA0MmYwOGU4YjUyZGM0YjIzNDMwZiIsInVzZXJfaWQiOjF9.-FfR5rAWi79JDAjZqs7WVA0E9HrP_WJHTVD5bHZF4MQ",
+      "created_at": "2022-06-27T15:19:28.586Z",
+      "expires_at": "2022-10-05T15:19:28Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 49,
+    "fields": {
+      "user": 1,
+      "jti": "889b0b235066447bb12577d75c07cf4c",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NDk4NDY4NywiaWF0IjoxNjU2MzQ0Njg3LCJqdGkiOiI4ODliMGIyMzUwNjY0NDdiYjEyNTc3ZDc1YzA3Y2Y0YyIsInVzZXJfaWQiOjF9.nyu4ALajnFyBx7c7i_pFXRXjVxAAhTjIjpkBO8rHZ64",
+      "created_at": "2022-06-27T15:44:47.669Z",
+      "expires_at": "2022-10-05T15:44:47Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 50,
+    "fields": {
+      "user": 1,
+      "jti": "8043eb5fca4f49588da3ae63dff083dc",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NTA3Mjc0NywiaWF0IjoxNjU2NDMyNzQ3LCJqdGkiOiI4MDQzZWI1ZmNhNGY0OTU4OGRhM2FlNjNkZmYwODNkYyIsInVzZXJfaWQiOjF9.AB_nWZYYKkYrzOqjU6-LnzzgbY7Kn95ymSEQYFLgv6M",
+      "created_at": "2022-06-28T16:12:27.972Z",
+      "expires_at": "2022-10-06T16:12:27Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 51,
+    "fields": {
+      "user": 1,
+      "jti": "068a9ba97dfc44f28866a8fa0db9c70b",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NTA3Mjc5NywiaWF0IjoxNjU2NDMyNzk3LCJqdGkiOiIwNjhhOWJhOTdkZmM0NGYyODg2NmE4ZmEwZGI5YzcwYiIsInVzZXJfaWQiOjF9.nDiPT0iqbfiIcZvcjtmKBqlC1VTRkWX1RoIHmdE5kpo",
+      "created_at": "2022-06-28T16:13:17.814Z",
+      "expires_at": "2022-10-06T16:13:17Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 52,
+    "fields": {
+      "user": 1,
+      "jti": "12edeb89805f438d9f59eadb4b229603",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NTA3Mjg5NCwiaWF0IjoxNjU2NDMyODk0LCJqdGkiOiIxMmVkZWI4OTgwNWY0MzhkOWY1OWVhZGI0YjIyOTYwMyIsInVzZXJfaWQiOjF9.LLbbvFAnzzev4JXQOAAXL15pTaQyNz5daIry5n3OPXE",
+      "created_at": "2022-06-28T16:14:54.795Z",
+      "expires_at": "2022-10-06T16:14:54Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 53,
+    "fields": {
+      "user": 1,
+      "jti": "50c4a63ac4db480badd5f157308aef1e",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NTA3Mjk2MCwiaWF0IjoxNjU2NDMyOTYwLCJqdGkiOiI1MGM0YTYzYWM0ZGI0ODBiYWRkNWYxNTczMDhhZWYxZSIsInVzZXJfaWQiOjF9.2upP-wMCjBAUs5LoNKC0bCC6gYumV_eqk14N6aAbl0o",
+      "created_at": "2022-06-28T16:16:00.672Z",
+      "expires_at": "2022-10-06T16:16:00Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 54,
+    "fields": {
+      "user": 1,
+      "jti": "42d236aa8af24a68aee042af1eed1356",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NTA3Mjk3OSwiaWF0IjoxNjU2NDMyOTc5LCJqdGkiOiI0MmQyMzZhYThhZjI0YTY4YWVlMDQyYWYxZWVkMTM1NiIsInVzZXJfaWQiOjF9.1ChFui_-LTBLE7nQJTTvI6Ssi0mnY10FXjs_uuCPlrI",
+      "created_at": "2022-06-28T16:16:19.572Z",
+      "expires_at": "2022-10-06T16:16:19Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 55,
+    "fields": {
+      "user": 1,
+      "jti": "1dae3f3f5d634819a3a78e5ff255d5df",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NTA3MzA5NCwiaWF0IjoxNjU2NDMzMDk0LCJqdGkiOiIxZGFlM2YzZjVkNjM0ODE5YTNhNzhlNWZmMjU1ZDVkZiIsInVzZXJfaWQiOjF9.ctc3MS-sJuLEWIMnhB7219tnBfyOQCdmrMwA5Irwsls",
+      "created_at": "2022-06-28T16:18:14.689Z",
+      "expires_at": "2022-10-06T16:18:14Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 56,
+    "fields": {
+      "user": 1,
+      "jti": "6b0a9b89b9bf4055a6ed8a21a615c437",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NTA3MzQ1NiwiaWF0IjoxNjU2NDMzNDU2LCJqdGkiOiI2YjBhOWI4OWI5YmY0MDU1YTZlZDhhMjFhNjE1YzQzNyIsInVzZXJfaWQiOjF9.Postt8aeMyo5SM1gcSaHwh3GwuFeHFAMpL1EdLekRlo",
+      "created_at": "2022-06-28T16:24:16.108Z",
+      "expires_at": "2022-10-06T16:24:16Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 57,
+    "fields": {
+      "user": 1,
+      "jti": "ef40a2fcb01c4f15adbbdee5caeb81e3",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NTA3Mzc4MywiaWF0IjoxNjU2NDMzNzgzLCJqdGkiOiJlZjQwYTJmY2IwMWM0ZjE1YWRiYmRlZTVjYWViODFlMyIsInVzZXJfaWQiOjF9.tgmoIG49mN2A2yFmpSHJ9s_CdljvgTEFSF41D-5omZo",
+      "created_at": "2022-06-28T16:29:43.784Z",
+      "expires_at": "2022-10-06T16:29:43Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 58,
+    "fields": {
+      "user": 1,
+      "jti": "9582b679204a4d009fe7939d17bbb464",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NTA3NDMyMiwiaWF0IjoxNjU2NDM0MzIyLCJqdGkiOiI5NTgyYjY3OTIwNGE0ZDAwOWZlNzkzOWQxN2JiYjQ2NCIsInVzZXJfaWQiOjF9.f5wSkF-kQceFRh0iKlWyJxxUZLO1dMlCxfGHs1uavow",
+      "created_at": "2022-06-28T16:38:42.733Z",
+      "expires_at": "2022-10-06T16:38:42Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 59,
+    "fields": {
+      "user": 1,
+      "jti": "f9a4617c250149cd835da56b950846ab",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NTA3NDMzNywiaWF0IjoxNjU2NDM0MzM3LCJqdGkiOiJmOWE0NjE3YzI1MDE0OWNkODM1ZGE1NmI5NTA4NDZhYiIsInVzZXJfaWQiOjF9.sacPAUkBg9eUjBmYNF8LhFMzNn5PGazp4LRlPZNqJLQ",
+      "created_at": "2022-06-28T16:38:57.360Z",
+      "expires_at": "2022-10-06T16:38:57Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 60,
+    "fields": {
+      "user": 1,
+      "jti": "de6857434502499880d9f8dfc7ee3feb",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NTA3NDY3MywiaWF0IjoxNjU2NDM0NjczLCJqdGkiOiJkZTY4NTc0MzQ1MDI0OTk4ODBkOWY4ZGZjN2VlM2ZlYiIsInVzZXJfaWQiOjF9.6oAnvGQG1650IbVQbQzo9c5SCgkaFOA-7eQdfk2pDCc",
+      "created_at": "2022-06-28T16:44:33.139Z",
+      "expires_at": "2022-10-06T16:44:33Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 61,
+    "fields": {
+      "user": 1,
+      "jti": "e2bd524d822e4fa5a1f3c1d237a3bb2f",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NTA3NDgwNiwiaWF0IjoxNjU2NDM0ODA2LCJqdGkiOiJlMmJkNTI0ZDgyMmU0ZmE1YTFmM2MxZDIzN2EzYmIyZiIsInVzZXJfaWQiOjF9.nzbGb7NCogMVX1r4AAi2CvqKpuFLW6Xq0j3uJeiHEVQ",
+      "created_at": "2022-06-28T16:46:46.632Z",
+      "expires_at": "2022-10-06T16:46:46Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 62,
+    "fields": {
+      "user": 1,
+      "jti": "6946a277b5ee4773b6f9e27a8fe9af39",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NTA3NTM1MCwiaWF0IjoxNjU2NDM1MzUwLCJqdGkiOiI2OTQ2YTI3N2I1ZWU0NzczYjZmOWUyN2E4ZmU5YWYzOSIsInVzZXJfaWQiOjF9.uawE5kaRXqjml2gqkSvAG50jGp4-S4Dp7_ns114Kiq4",
+      "created_at": "2022-06-28T16:55:50.972Z",
+      "expires_at": "2022-10-06T16:55:50Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 63,
+    "fields": {
+      "user": 1,
+      "jti": "1fc19fe7b67b476fabd75fe8bd5f3470",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NTA3NTM5MywiaWF0IjoxNjU2NDM1MzkzLCJqdGkiOiIxZmMxOWZlN2I2N2I0NzZmYWJkNzVmZThiZDVmMzQ3MCIsInVzZXJfaWQiOjF9.AuQs80P2q4K_N_5s2GdscNTf91Wfg9cy2rLYVsqXG8M",
+      "created_at": "2022-06-28T16:56:33.535Z",
+      "expires_at": "2022-10-06T16:56:33Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 64,
+    "fields": {
+      "user": 1,
+      "jti": "1d6d715a935f41b8902373e29371443c",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NTA3NTM5NSwiaWF0IjoxNjU2NDM1Mzk1LCJqdGkiOiIxZDZkNzE1YTkzNWY0MWI4OTAyMzczZTI5MzcxNDQzYyIsInVzZXJfaWQiOjF9.nEHb2QuGHHmJIbNDgjy-c6soFODel1_aSw0eYl4QDMg",
+      "created_at": "2022-06-28T16:56:35.143Z",
+      "expires_at": "2022-10-06T16:56:35Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 65,
+    "fields": {
+      "user": 1,
+      "jti": "dce72c4d47b2416ebe9dbde96855089c",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NTA3NTQ3MiwiaWF0IjoxNjU2NDM1NDcyLCJqdGkiOiJkY2U3MmM0ZDQ3YjI0MTZlYmU5ZGJkZTk2ODU1MDg5YyIsInVzZXJfaWQiOjF9.mKIY7wtwv7auNzxGPBtSQQEYFmGMlArwk_nbRklXvzk",
+      "created_at": "2022-06-28T16:57:52.476Z",
+      "expires_at": "2022-10-06T16:57:52Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 66,
+    "fields": {
+      "user": 1,
+      "jti": "bc16f32ffe1d4ea791a26e91e928d9f8",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NTA3NjAwNiwiaWF0IjoxNjU2NDM2MDA2LCJqdGkiOiJiYzE2ZjMyZmZlMWQ0ZWE3OTFhMjZlOTFlOTI4ZDlmOCIsInVzZXJfaWQiOjF9.q3j1GWfU8RSAavWLsYqgYN6iegERBFoKLEC4PgZXcfM",
+      "created_at": "2022-06-28T17:06:46.970Z",
+      "expires_at": "2022-10-06T17:06:46Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 67,
+    "fields": {
+      "user": 1,
+      "jti": "77387b0fe8dc46a1a1d352fd2f00c984",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NTA3NjA0MywiaWF0IjoxNjU2NDM2MDQzLCJqdGkiOiI3NzM4N2IwZmU4ZGM0NmExYTFkMzUyZmQyZjAwYzk4NCIsInVzZXJfaWQiOjF9.rj5qad2zJ6M1rAJcD8q6UF57hOxPXs_8kqVi-R9Ql3M",
+      "created_at": "2022-06-28T17:07:23.204Z",
+      "expires_at": "2022-10-06T17:07:23Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 68,
+    "fields": {
+      "user": 1,
+      "jti": "67689370f98946458a280a0aaa5b9408",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NTA3NjIxOCwiaWF0IjoxNjU2NDM2MjE4LCJqdGkiOiI2NzY4OTM3MGY5ODk0NjQ1OGEyODBhMGFhYTViOTQwOCIsInVzZXJfaWQiOjF9.m02ar99_5mbVpduNFnHR8DOgdJARsajiE4r6THg5Ekw",
+      "created_at": "2022-06-28T17:10:18.716Z",
+      "expires_at": "2022-10-06T17:10:18Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 69,
+    "fields": {
+      "user": 1,
+      "jti": "cef6edce9743457fb30f0b9580495c04",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NTA3NjIyNiwiaWF0IjoxNjU2NDM2MjI2LCJqdGkiOiJjZWY2ZWRjZTk3NDM0NTdmYjMwZjBiOTU4MDQ5NWMwNCIsInVzZXJfaWQiOjF9.tuSG8p0br4aSEsVFUOQ0zKVTWX_NJMCTcZN21D61-XE",
+      "created_at": "2022-06-28T17:10:26.899Z",
+      "expires_at": "2022-10-06T17:10:26Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 70,
+    "fields": {
+      "user": 1,
+      "jti": "724f1c6abd494a0ebaf433f6c6baaa63",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NTA4MjEwNSwiaWF0IjoxNjU2NDQyMTA1LCJqdGkiOiI3MjRmMWM2YWJkNDk0YTBlYmFmNDMzZjZjNmJhYWE2MyIsInVzZXJfaWQiOjF9.UlLRbuh-zY9np3RRRFxu1ee-zgjXeD83LoFawziWkyY",
+      "created_at": "2022-06-28T18:48:25.366Z",
+      "expires_at": "2022-10-06T18:48:25Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 71,
+    "fields": {
+      "user": 1,
+      "jti": "edf8d0485cba4e9585db00d37944b4da",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NTA4MjEzMSwiaWF0IjoxNjU2NDQyMTMxLCJqdGkiOiJlZGY4ZDA0ODVjYmE0ZTk1ODVkYjAwZDM3OTQ0YjRkYSIsInVzZXJfaWQiOjF9.hKQbXEvSqlcDtiEjQHpJ-Nrhztm0NPnbaerNtSE9OMU",
+      "created_at": "2022-06-28T18:48:51.309Z",
+      "expires_at": "2022-10-06T18:48:51Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 72,
+    "fields": {
+      "user": 1,
+      "jti": "4b4d1d07db8043ec86b7bb31c3f94049",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NTA4MjE1MSwiaWF0IjoxNjU2NDQyMTUxLCJqdGkiOiI0YjRkMWQwN2RiODA0M2VjODZiN2JiMzFjM2Y5NDA0OSIsInVzZXJfaWQiOjF9.B3cdEfd0KXAPmSSXplvSJj8jsP5AXC5JNb72-YX4-h8",
+      "created_at": "2022-06-28T18:49:11.930Z",
+      "expires_at": "2022-10-06T18:49:11Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 73,
+    "fields": {
+      "user": 1,
+      "jti": "1d990930a8bd420c88eaa6ec4b637c82",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NTA4MjIwOCwiaWF0IjoxNjU2NDQyMjA4LCJqdGkiOiIxZDk5MDkzMGE4YmQ0MjBjODhlYWE2ZWM0YjYzN2M4MiIsInVzZXJfaWQiOjF9.B7Hx0O7Ev4XvKQQgMixzFkzKDSgRntWMYa1jH-BHnMQ",
+      "created_at": "2022-06-28T18:50:08.765Z",
+      "expires_at": "2022-10-06T18:50:08Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 74,
+    "fields": {
+      "user": 1,
+      "jti": "39cb77b7de6e491e813042e906d0f0ce",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NTA4MjM1MiwiaWF0IjoxNjU2NDQyMzUyLCJqdGkiOiIzOWNiNzdiN2RlNmU0OTFlODEzMDQyZTkwNmQwZjBjZSIsInVzZXJfaWQiOjF9.rafvgwpa3zGGBtaKaiEB7-QNOFsUE_Z8IACEL5vQDpY",
+      "created_at": "2022-06-28T18:52:32.889Z",
+      "expires_at": "2022-10-06T18:52:32Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 75,
+    "fields": {
+      "user": 1,
+      "jti": "cb894bd5aa334ddcb2868effd0591ba1",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NTA4MjQwMiwiaWF0IjoxNjU2NDQyNDAyLCJqdGkiOiJjYjg5NGJkNWFhMzM0ZGRjYjI4NjhlZmZkMDU5MWJhMSIsInVzZXJfaWQiOjF9.3uTw8RSeReGpOv9_aAaaqP9-LliHaqqJTcFGIP8uaQo",
+      "created_at": "2022-06-28T18:53:22.725Z",
+      "expires_at": "2022-10-06T18:53:22Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 76,
+    "fields": {
+      "user": 1,
+      "jti": "2fa9b5635a864818b145af83c4fdf19b",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NTA4MjU2NywiaWF0IjoxNjU2NDQyNTY3LCJqdGkiOiIyZmE5YjU2MzVhODY0ODE4YjE0NWFmODNjNGZkZjE5YiIsInVzZXJfaWQiOjF9.JoIK4r87_nH94g6-UYlY5mU-axGETwFM0KUb12tr3tI",
+      "created_at": "2022-06-28T18:56:07.946Z",
+      "expires_at": "2022-10-06T18:56:07Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 77,
+    "fields": {
+      "user": 1,
+      "jti": "39c06ffd7b03414f88dde20b6b6f8af8",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NTA4MjU5MiwiaWF0IjoxNjU2NDQyNTkyLCJqdGkiOiIzOWMwNmZmZDdiMDM0MTRmODhkZGUyMGI2YjZmOGFmOCIsInVzZXJfaWQiOjF9.tejriF3qPRBaICZX_YVwaT7DhZ1_I0t9ilGGwupWeSk",
+      "created_at": "2022-06-28T18:56:32.653Z",
+      "expires_at": "2022-10-06T18:56:32Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 78,
+    "fields": {
+      "user": 1,
+      "jti": "de614ab51784436b8d38772bc1d1b536",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NTA4MzIzNSwiaWF0IjoxNjU2NDQzMjM1LCJqdGkiOiJkZTYxNGFiNTE3ODQ0MzZiOGQzODc3MmJjMWQxYjUzNiIsInVzZXJfaWQiOjF9.CK-pUm4tOJwJCQ6GpJqzjYNRpxdw2AsbxYsH-RHN64k",
+      "created_at": "2022-06-28T19:07:15.147Z",
+      "expires_at": "2022-10-06T19:07:15Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 79,
+    "fields": {
+      "user": 1,
+      "jti": "7b58dff6903b44a7be9f56be33d33f44",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NTA4MzIzNiwiaWF0IjoxNjU2NDQzMjM2LCJqdGkiOiI3YjU4ZGZmNjkwM2I0NGE3YmU5ZjU2YmUzM2QzM2Y0NCIsInVzZXJfaWQiOjF9.h01YVIogwPq-X0CJKp-psI_OX2UU9EXtSedG25SWD4A",
+      "created_at": "2022-06-28T19:07:16.340Z",
+      "expires_at": "2022-10-06T19:07:16Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 80,
+    "fields": {
+      "user": 1,
+      "jti": "505252b78e71416bbaa1989eada86993",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NTA4MzM2NCwiaWF0IjoxNjU2NDQzMzY0LCJqdGkiOiI1MDUyNTJiNzhlNzE0MTZiYmFhMTk4OWVhZGE4Njk5MyIsInVzZXJfaWQiOjF9.X2diE_nTb-r9XXpBwsXMnyQPp1O28hpdav-fdg4xDTg",
+      "created_at": "2022-06-28T19:09:24.641Z",
+      "expires_at": "2022-10-06T19:09:24Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 81,
+    "fields": {
+      "user": 1,
+      "jti": "2bfdee68890647b1956c27d2dbcbd9b9",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NTA4Mzk1NywiaWF0IjoxNjU2NDQzOTU3LCJqdGkiOiIyYmZkZWU2ODg5MDY0N2IxOTU2YzI3ZDJkYmNiZDliOSIsInVzZXJfaWQiOjF9.SdoyGHEPmKrw5yblyU05fdDRuZrtrB7y6ma7JYj0xAc",
+      "created_at": "2022-06-28T19:19:17.144Z",
+      "expires_at": "2022-10-06T19:19:17Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 82,
+    "fields": {
+      "user": 1,
+      "jti": "0e06b5aab49244b9a70d063f8136fcfe",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NTA4Mzk5NiwiaWF0IjoxNjU2NDQzOTk2LCJqdGkiOiIwZTA2YjVhYWI0OTI0NGI5YTcwZDA2M2Y4MTM2ZmNmZSIsInVzZXJfaWQiOjF9.MexW2s7BlZ_B89bGaQgvMbi9qNqzx5wRSVF0X7l17J8",
+      "created_at": "2022-06-28T19:19:56.027Z",
+      "expires_at": "2022-10-06T19:19:56Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 83,
+    "fields": {
+      "user": 1,
+      "jti": "2d8cc62a8da745139bf19f2635e549e7",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NTA4NDA0MCwiaWF0IjoxNjU2NDQ0MDQwLCJqdGkiOiIyZDhjYzYyYThkYTc0NTEzOWJmMTlmMjYzNWU1NDllNyIsInVzZXJfaWQiOjF9.p5sHNTTB3bXs_4HHZznH8dR80MCH-uXTJ8yeU6XTAYk",
+      "created_at": "2022-06-28T19:20:40.053Z",
+      "expires_at": "2022-10-06T19:20:40Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 84,
+    "fields": {
+      "user": 1,
+      "jti": "5311bd6ff68549ebadf20b2762a3ae6a",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NTA4NDA1NywiaWF0IjoxNjU2NDQ0MDU3LCJqdGkiOiI1MzExYmQ2ZmY2ODU0OWViYWRmMjBiMjc2MmEzYWU2YSIsInVzZXJfaWQiOjF9.GsYA_oxWj3BrDTbWNqhJQwC2sFKnqFKKqdQJQYIF8-Q",
+      "created_at": "2022-06-28T19:20:57.088Z",
+      "expires_at": "2022-10-06T19:20:57Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 85,
+    "fields": {
+      "user": 1,
+      "jti": "2b58b6feb67244b4b8484d0a320c06d8",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NTA4NDA1NywiaWF0IjoxNjU2NDQ0MDU3LCJqdGkiOiIyYjU4YjZmZWI2NzI0NGI0Yjg0ODRkMGEzMjBjMDZkOCIsInVzZXJfaWQiOjF9.lDa6OaR0B_FNSf4RKFpeUjsPTBPv5Ydq_BjNr_DgWsM",
+      "created_at": "2022-06-28T19:20:57.733Z",
+      "expires_at": "2022-10-06T19:20:57Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 86,
+    "fields": {
+      "user": 1,
+      "jti": "8a64b5035a6a4d9ca8c914288c7540c7",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NTA4NDA1NywiaWF0IjoxNjU2NDQ0MDU3LCJqdGkiOiI4YTY0YjUwMzVhNmE0ZDljYThjOTE0Mjg4Yzc1NDBjNyIsInVzZXJfaWQiOjF9.PWSCVcjWYdfe3__1EqEIir4eRfSZYpYk5q3SgsAbmHg",
+      "created_at": "2022-06-28T19:20:57.888Z",
+      "expires_at": "2022-10-06T19:20:57Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 87,
+    "fields": {
+      "user": 1,
+      "jti": "71ee57c8e62c4a87a04325cfb5133529",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NTA4NDA1OCwiaWF0IjoxNjU2NDQ0MDU4LCJqdGkiOiI3MWVlNTdjOGU2MmM0YTg3YTA0MzI1Y2ZiNTEzMzUyOSIsInVzZXJfaWQiOjF9.noKL8D4uaPSCq5xUv_bhyGgy4RyYj9eKlp0x2eGmuo8",
+      "created_at": "2022-06-28T19:20:58.088Z",
+      "expires_at": "2022-10-06T19:20:58Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 88,
+    "fields": {
+      "user": 1,
+      "jti": "ff93db820672435ebd77d4f665ac345f",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NTA4NDA1OCwiaWF0IjoxNjU2NDQ0MDU4LCJqdGkiOiJmZjkzZGI4MjA2NzI0MzVlYmQ3N2Q0ZjY2NWFjMzQ1ZiIsInVzZXJfaWQiOjF9.WFaj0HQAoY-EmQRJYIou7_0iQbMnYLypi_o3oOCAfh0",
+      "created_at": "2022-06-28T19:20:58.355Z",
+      "expires_at": "2022-10-06T19:20:58Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 89,
+    "fields": {
+      "user": 1,
+      "jti": "b4a996500f234df2ae5286c7c667cb98",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NTA4NDA1OCwiaWF0IjoxNjU2NDQ0MDU4LCJqdGkiOiJiNGE5OTY1MDBmMjM0ZGYyYWU1Mjg2YzdjNjY3Y2I5OCIsInVzZXJfaWQiOjF9.HDj3MlmLdDAeC8VLUu34sc1Zpv8v7Wx4AdZw2gwBhZ0",
+      "created_at": "2022-06-28T19:20:58.533Z",
+      "expires_at": "2022-10-06T19:20:58Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 90,
+    "fields": {
+      "user": 1,
+      "jti": "b275ab02b387499ebb6f0b06b65df4c8",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NTA4NDEzNCwiaWF0IjoxNjU2NDQ0MTM0LCJqdGkiOiJiMjc1YWIwMmIzODc0OTllYmI2ZjBiMDZiNjVkZjRjOCIsInVzZXJfaWQiOjF9.QmmJ70XHx3RayOQQQu4G5T41bOW6bhXI25nsHZuDnEk",
+      "created_at": "2022-06-28T19:22:14.749Z",
+      "expires_at": "2022-10-06T19:22:14Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 91,
+    "fields": {
+      "user": 1,
+      "jti": "110f499742ca46ce976cb784e16cd7c8",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NTA4NDE2NywiaWF0IjoxNjU2NDQ0MTY3LCJqdGkiOiIxMTBmNDk5NzQyY2E0NmNlOTc2Y2I3ODRlMTZjZDdjOCIsInVzZXJfaWQiOjF9._ttZ9vor4vDpnAZVIqNe86W-88UYe4ZXqL7gaxP5WfM",
+      "created_at": "2022-06-28T19:22:47.952Z",
+      "expires_at": "2022-10-06T19:22:47Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 92,
+    "fields": {
+      "user": 1,
+      "jti": "5b4472a265924ee4b08c9f49c429a813",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NTA4NDE5MSwiaWF0IjoxNjU2NDQ0MTkxLCJqdGkiOiI1YjQ0NzJhMjY1OTI0ZWU0YjA4YzlmNDljNDI5YTgxMyIsInVzZXJfaWQiOjF9.ma785z5tLFJol3VjQrIyKgqiHhxDoFnSG3HyPmRXQog",
+      "created_at": "2022-06-28T19:23:11.789Z",
+      "expires_at": "2022-10-06T19:23:11Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 93,
+    "fields": {
+      "user": 1,
+      "jti": "4499591f52a849e08243499ad162c61a",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NTA4NDIwMSwiaWF0IjoxNjU2NDQ0MjAxLCJqdGkiOiI0NDk5NTkxZjUyYTg0OWUwODI0MzQ5OWFkMTYyYzYxYSIsInVzZXJfaWQiOjF9.iquMNcGkLK9KeWMmyXZpnt9To8C0iUuVlLzRxCNmXKw",
+      "created_at": "2022-06-28T19:23:21.098Z",
+      "expires_at": "2022-10-06T19:23:21Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 94,
+    "fields": {
+      "user": 1,
+      "jti": "54fb904fda6c436b925c264135c786bf",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NTA4NDI1NywiaWF0IjoxNjU2NDQ0MjU3LCJqdGkiOiI1NGZiOTA0ZmRhNmM0MzZiOTI1YzI2NDEzNWM3ODZiZiIsInVzZXJfaWQiOjF9.UFzRlPRokbe16f3RA3Jnosyw_meaEiPk7o4CLPkczrg",
+      "created_at": "2022-06-28T19:24:17.871Z",
+      "expires_at": "2022-10-06T19:24:17Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 95,
+    "fields": {
+      "user": 1,
+      "jti": "e69cc8e90d5b47aa80b891a4c8ffd6b1",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NTA4NDI4OCwiaWF0IjoxNjU2NDQ0Mjg4LCJqdGkiOiJlNjljYzhlOTBkNWI0N2FhODBiODkxYTRjOGZmZDZiMSIsInVzZXJfaWQiOjF9.xd51eKCnwn35G5rpoYF6thnM36GXQ0mZGa5vQ2dpLic",
+      "created_at": "2022-06-28T19:24:48.522Z",
+      "expires_at": "2022-10-06T19:24:48Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 96,
+    "fields": {
+      "user": 1,
+      "jti": "2d601f94b7114fdd89e70167095d258f",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NTA4NDMwNiwiaWF0IjoxNjU2NDQ0MzA2LCJqdGkiOiIyZDYwMWY5NGI3MTE0ZmRkODllNzAxNjcwOTVkMjU4ZiIsInVzZXJfaWQiOjF9.pqHH0ZX2tLcBA2AFBzEX595ZgFtYCerb-upo5QSJnko",
+      "created_at": "2022-06-28T19:25:06.275Z",
+      "expires_at": "2022-10-06T19:25:06Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 97,
+    "fields": {
+      "user": 1,
+      "jti": "1935decb9dd34aa7a89c818528b142f2",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NTA4NDM1NSwiaWF0IjoxNjU2NDQ0MzU1LCJqdGkiOiIxOTM1ZGVjYjlkZDM0YWE3YTg5YzgxODUyOGIxNDJmMiIsInVzZXJfaWQiOjF9.tRjv43TbO_VAripje6K0Yp5MUJzLO3jtAJ6NZAeaOJo",
+      "created_at": "2022-06-28T19:25:55.085Z",
+      "expires_at": "2022-10-06T19:25:55Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 98,
+    "fields": {
+      "user": 1,
+      "jti": "f9492bf442fd44e8bef9843d0750d77e",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NTA4NDM2MiwiaWF0IjoxNjU2NDQ0MzYyLCJqdGkiOiJmOTQ5MmJmNDQyZmQ0NGU4YmVmOTg0M2QwNzUwZDc3ZSIsInVzZXJfaWQiOjF9.gH8yemTQgpNwhLiDbmaAcirHMdMxKdl2W1LNQYHd9u4",
+      "created_at": "2022-06-28T19:26:02.981Z",
+      "expires_at": "2022-10-06T19:26:02Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 99,
+    "fields": {
+      "user": 1,
+      "jti": "bcf448dd8ef54730aeae797306706d06",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NTA4NDQ2MCwiaWF0IjoxNjU2NDQ0NDYwLCJqdGkiOiJiY2Y0NDhkZDhlZjU0NzMwYWVhZTc5NzMwNjcwNmQwNiIsInVzZXJfaWQiOjF9.hBjJ44eohl_iY9z9jPNciBF9tq6XXghvhiBztZ30CPU",
+      "created_at": "2022-06-28T19:27:40.766Z",
+      "expires_at": "2022-10-06T19:27:40Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 100,
+    "fields": {
+      "user": 1,
+      "jti": "8b1cdf16a87442b8a59e039492df1f2a",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NTA4NDQ2NiwiaWF0IjoxNjU2NDQ0NDY2LCJqdGkiOiI4YjFjZGYxNmE4NzQ0MmI4YTU5ZTAzOTQ5MmRmMWYyYSIsInVzZXJfaWQiOjF9.p20SK-s-tURmkJhoDRUOzqjl_Ur7Ay_jskhRVMjpOnU",
+      "created_at": "2022-06-28T19:27:46.281Z",
+      "expires_at": "2022-10-06T19:27:46Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 101,
+    "fields": {
+      "user": 1,
+      "jti": "6a26e8be17e8478290a2d59379e6c11f",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NTA4NDQ3NiwiaWF0IjoxNjU2NDQ0NDc2LCJqdGkiOiI2YTI2ZThiZTE3ZTg0NzgyOTBhMmQ1OTM3OWU2YzExZiIsInVzZXJfaWQiOjF9.Wmvzv0fymvYLFawvx3EdeM_jaP-eAMSJARwelW2kjlg",
+      "created_at": "2022-06-28T19:27:56.817Z",
+      "expires_at": "2022-10-06T19:27:56Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 102,
+    "fields": {
+      "user": 1,
+      "jti": "b9f8538920124d3ebaf595f7b3415290",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NTA4NDQ5OCwiaWF0IjoxNjU2NDQ0NDk4LCJqdGkiOiJiOWY4NTM4OTIwMTI0ZDNlYmFmNTk1ZjdiMzQxNTI5MCIsInVzZXJfaWQiOjF9.lZLfbypGdljpEVnkj-tqxRvywxqbreJxn6Q1BY0hAm4",
+      "created_at": "2022-06-28T19:28:18.802Z",
+      "expires_at": "2022-10-06T19:28:18Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 103,
+    "fields": {
+      "user": 1,
+      "jti": "166b42b467934eca8eef2ef42fcc88f4",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NTA4NDYwMiwiaWF0IjoxNjU2NDQ0NjAyLCJqdGkiOiIxNjZiNDJiNDY3OTM0ZWNhOGVlZjJlZjQyZmNjODhmNCIsInVzZXJfaWQiOjF9.KCyRz-waG1YAfu7EQ2m64Au6qteCNt7jiGXWvHe2B48",
+      "created_at": "2022-06-28T19:30:02.176Z",
+      "expires_at": "2022-10-06T19:30:02Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 104,
+    "fields": {
+      "user": 1,
+      "jti": "516ed639c9d849aab19a5da4ddbcb94e",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NTA4NTI0OCwiaWF0IjoxNjU2NDQ1MjQ4LCJqdGkiOiI1MTZlZDYzOWM5ZDg0OWFhYjE5YTVkYTRkZGJjYjk0ZSIsInVzZXJfaWQiOjF9.6H422zQ6cXEdrVVZa7MbcwZ-ntBjhDq02jTbrRosBow",
+      "created_at": "2022-06-28T19:40:48.538Z",
+      "expires_at": "2022-10-06T19:40:48Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 105,
+    "fields": {
+      "user": 1,
+      "jti": "1b0e94bd0ecb48b4aeb066b3e10b4383",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NTEzMjUxMCwiaWF0IjoxNjU2NDkyNTEwLCJqdGkiOiIxYjBlOTRiZDBlY2I0OGI0YWViMDY2YjNlMTBiNDM4MyIsInVzZXJfaWQiOjF9.ipwGmT5tjMF6Oiu9A2AOGzIL75djgAUxEg6ycepT5Dw",
+      "created_at": "2022-06-29T08:48:30.278Z",
+      "expires_at": "2022-10-07T08:48:30Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 106,
+    "fields": {
+      "user": 1,
+      "jti": "6f3b764332c24b58aadef78d42369d80",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NTEzMjU1MiwiaWF0IjoxNjU2NDkyNTUyLCJqdGkiOiI2ZjNiNzY0MzMyYzI0YjU4YWFkZWY3OGQ0MjM2OWQ4MCIsInVzZXJfaWQiOjF9.rJwpqnngk3y7UO005uvWipmyV7QtdMvmtBt5PzvDpuA",
+      "created_at": "2022-06-29T08:49:12.036Z",
+      "expires_at": "2022-10-07T08:49:12Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 107,
+    "fields": {
+      "user": 1,
+      "jti": "0c8544309008477cab6ac9fae45b24af",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NTEzMjU1MywiaWF0IjoxNjU2NDkyNTUzLCJqdGkiOiIwYzg1NDQzMDkwMDg0NzdjYWI2YWM5ZmFlNDViMjRhZiIsInVzZXJfaWQiOjF9.C2eiLwWnVrGfOhK3zVWzBu9hDjHYN0cRbaLxR3YG5N4",
+      "created_at": "2022-06-29T08:49:13.239Z",
+      "expires_at": "2022-10-07T08:49:13Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 108,
+    "fields": {
+      "user": 1,
+      "jti": "b208a06369084e40af096a42dc5c6ab4",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NTEzMjU4MywiaWF0IjoxNjU2NDkyNTgzLCJqdGkiOiJiMjA4YTA2MzY5MDg0ZTQwYWYwOTZhNDJkYzVjNmFiNCIsInVzZXJfaWQiOjF9.37ryOj20eYAnKxmfIxf60BbWUULC_uf1SVQAgwQBGp0",
+      "created_at": "2022-06-29T08:49:43.442Z",
+      "expires_at": "2022-10-07T08:49:43Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 109,
+    "fields": {
+      "user": 1,
+      "jti": "db344a4c3e434737b61ca979b6a37e7e",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NTEzMjYxMiwiaWF0IjoxNjU2NDkyNjEyLCJqdGkiOiJkYjM0NGE0YzNlNDM0NzM3YjYxY2E5NzliNmEzN2U3ZSIsInVzZXJfaWQiOjF9.sMW_KIgP7-FmrRnYd064JRZYTdcAX3ab7j_LNi6d4qA",
+      "created_at": "2022-06-29T08:50:12.622Z",
+      "expires_at": "2022-10-07T08:50:12Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 110,
+    "fields": {
+      "user": 1,
+      "jti": "241d07140a35441ab36263ff6eee318a",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NTEzMjYxMywiaWF0IjoxNjU2NDkyNjEzLCJqdGkiOiIyNDFkMDcxNDBhMzU0NDFhYjM2MjYzZmY2ZWVlMzE4YSIsInVzZXJfaWQiOjF9.vX33v93VmccsLMiqRUYIyvpm1NsdqISoF7Xw9skN6XI",
+      "created_at": "2022-06-29T08:50:13.731Z",
+      "expires_at": "2022-10-07T08:50:13Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 111,
+    "fields": {
+      "user": 1,
+      "jti": "fc32b1e99b80426f90239b1512bba558",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NTEzMjYxMywiaWF0IjoxNjU2NDkyNjEzLCJqdGkiOiJmYzMyYjFlOTliODA0MjZmOTAyMzliMTUxMmJiYTU1OCIsInVzZXJfaWQiOjF9.yY-GPV9PCRNz-afZkvE4xbcY6ZqKfN3xXrF7fdF0d8I",
+      "created_at": "2022-06-29T08:50:13.985Z",
+      "expires_at": "2022-10-07T08:50:13Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 112,
+    "fields": {
+      "user": 1,
+      "jti": "48e2b7717e3f497eaf72180b581b3b98",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NTEzMjYxNCwiaWF0IjoxNjU2NDkyNjE0LCJqdGkiOiI0OGUyYjc3MTdlM2Y0OTdlYWY3MjE4MGI1ODFiM2I5OCIsInVzZXJfaWQiOjF9.9WS0E79236zYp__Nf2ctuXOtzcjDyQXMLT1O2Cyq0SY",
+      "created_at": "2022-06-29T08:50:14.202Z",
+      "expires_at": "2022-10-07T08:50:14Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 113,
+    "fields": {
+      "user": 1,
+      "jti": "7ae3acfe2457453295792dcc25d1ba0e",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NTEzMjYxNCwiaWF0IjoxNjU2NDkyNjE0LCJqdGkiOiI3YWUzYWNmZTI0NTc0NTMyOTU3OTJkY2MyNWQxYmEwZSIsInVzZXJfaWQiOjF9.v0JIpYoLvudla3YufKwTg-VuownXHt9C6eOe-S3kPDY",
+      "created_at": "2022-06-29T08:50:14.421Z",
+      "expires_at": "2022-10-07T08:50:14Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 114,
+    "fields": {
+      "user": 1,
+      "jti": "76529d5a047c4bde8b65542606ffe98d",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NTEzMjYzMywiaWF0IjoxNjU2NDkyNjMzLCJqdGkiOiI3NjUyOWQ1YTA0N2M0YmRlOGI2NTU0MjYwNmZmZTk4ZCIsInVzZXJfaWQiOjF9.mClizGX8M8UYMrwPt6MqnQpe9DVpemJMFkQFl73-EPU",
+      "created_at": "2022-06-29T08:50:33.526Z",
+      "expires_at": "2022-10-07T08:50:33Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 115,
+    "fields": {
+      "user": 1,
+      "jti": "93610f846ff441898b1102505c57115a",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NTEzMjg2OCwiaWF0IjoxNjU2NDkyODY4LCJqdGkiOiI5MzYxMGY4NDZmZjQ0MTg5OGIxMTAyNTA1YzU3MTE1YSIsInVzZXJfaWQiOjF9.7HwPwemfTrLUZgBxobWrkpCEwZoNGRcWY1uup9IyntY",
+      "created_at": "2022-06-29T08:54:28.506Z",
+      "expires_at": "2022-10-07T08:54:28Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 116,
+    "fields": {
+      "user": 1,
+      "jti": "25f141e9baec47c0b3bfbecd8a02ecb6",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NTEzMzk4MCwiaWF0IjoxNjU2NDkzOTgwLCJqdGkiOiIyNWYxNDFlOWJhZWM0N2MwYjNiZmJlY2Q4YTAyZWNiNiIsInVzZXJfaWQiOjF9.dzKFv5RRtr5JPBuc2zbyJy57r_ecQEc3u41ozEX0BH0",
+      "created_at": "2022-06-29T09:13:00.984Z",
+      "expires_at": "2022-10-07T09:13:00Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 117,
+    "fields": {
+      "user": 1,
+      "jti": "fb406db7014d412398f809ef2c562685",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NTEzNDc3NywiaWF0IjoxNjU2NDk0Nzc3LCJqdGkiOiJmYjQwNmRiNzAxNGQ0MTIzOThmODA5ZWYyYzU2MjY4NSIsInVzZXJfaWQiOjF9.8xXQHPHwcGKx1w2tnlE92MYrRY0LkOuRIoI2lgTXupI",
+      "created_at": "2022-06-29T09:26:17.146Z",
+      "expires_at": "2022-10-07T09:26:17Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 118,
+    "fields": {
+      "user": 6,
+      "jti": "24474995d05d4fc3857d2f66f236cb4e",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NTI1NDQ3NSwiaWF0IjoxNjU2NjE0NDc1LCJqdGkiOiIyNDQ3NDk5NWQwNWQ0ZmMzODU3ZDJmNjZmMjM2Y2I0ZSIsInVzZXJfaWQiOjZ9.4-Yp49Na5j6HLP8ngkLeSH28EFbdy9YonxhcqO9ahs8",
+      "created_at": "2022-06-30T18:41:15.259Z",
+      "expires_at": "2022-10-08T18:41:15Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 119,
+    "fields": {
+      "user": 6,
+      "jti": "f671ac78590749b8b91fb3299ea57440",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NTI1NjIwNSwiaWF0IjoxNjU2NjE2MjA1LCJqdGkiOiJmNjcxYWM3ODU5MDc0OWI4YjkxZmIzMjk5ZWE1NzQ0MCIsInVzZXJfaWQiOjZ9.pdK8mL74RXKohgX1njXZtVVxbnO9OijW26IvT0ut3xw",
+      "created_at": "2022-06-30T19:10:05.782Z",
+      "expires_at": "2022-10-08T19:10:05Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 120,
+    "fields": {
+      "user": 6,
+      "jti": "b7c5b25367d14b74ba8962bd73c2cd1a",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NTMwNTU2OCwiaWF0IjoxNjU2NjY1NTY4LCJqdGkiOiJiN2M1YjI1MzY3ZDE0Yjc0YmE4OTYyYmQ3M2MyY2QxYSIsInVzZXJfaWQiOjZ9.X3603wyooo5OS3zwFT7r-PCbI2HgHCsPEoHx2VWoqWs",
+      "created_at": "2022-07-01T08:52:48.936Z",
+      "expires_at": "2022-10-09T08:52:48Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 121,
+    "fields": {
+      "user": 6,
+      "jti": "6895f1b3b41240c489144a08147e853c",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NTQxNjMzNywiaWF0IjoxNjU2Nzc2MzM3LCJqdGkiOiI2ODk1ZjFiM2I0MTI0MGM0ODkxNDRhMDgxNDdlODUzYyIsInVzZXJfaWQiOjZ9.1YqW6Waywduj8768MYXxU02VW47ZsyUYa0jVcU5WV3o",
+      "created_at": "2022-07-02T15:38:57.949Z",
+      "expires_at": "2022-10-10T15:38:57Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 122,
+    "fields": {
+      "user": 1,
+      "jti": "81c52cb8ff24440eaf8c1b95c011cd2f",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NTUxNzMxMiwiaWF0IjoxNjU2ODc3MzEyLCJqdGkiOiI4MWM1MmNiOGZmMjQ0NDBlYWY4YzFiOTVjMDExY2QyZiIsInVzZXJfaWQiOjF9.su5K-YLmGyWwxK1EPP5x7eOUeqCt9lRhHuMHnnHeVBI",
+      "created_at": "2022-07-03T19:41:52.319Z",
+      "expires_at": "2022-10-11T19:41:52Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 123,
+    "fields": {
+      "user": 1,
+      "jti": "df2deb03c07e44f8a34e3ca365469008",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NTY1MzYxNywiaWF0IjoxNjU3MDEzNjE3LCJqdGkiOiJkZjJkZWIwM2MwN2U0NGY4YTM0ZTNjYTM2NTQ2OTAwOCIsInVzZXJfaWQiOjF9.1S1FeLQJtevkptjpRNKoVNqBMBaFH0oCxmzYbHgf4WA",
+      "created_at": "2022-07-05T09:33:37.972Z",
+      "expires_at": "2022-10-13T09:33:37Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 124,
+    "fields": {
+      "user": 6,
+      "jti": "2bd463650bfb429ca4a963b014d653a7",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NTY1NTExMCwiaWF0IjoxNjU3MDE1MTEwLCJqdGkiOiIyYmQ0NjM2NTBiZmI0MjljYTRhOTYzYjAxNGQ2NTNhNyIsInVzZXJfaWQiOjZ9.shiuHXvZnBbsjqwuTn2O8bL2J6Ts0863O-2kIOhCEDo",
+      "created_at": "2022-07-05T09:58:30.132Z",
+      "expires_at": "2022-10-13T09:58:30Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 125,
+    "fields": {
+      "user": 1,
+      "jti": "c53705a7ece44a698238db727ddca470",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NTY3NDY2NiwiaWF0IjoxNjU3MDM0NjY2LCJqdGkiOiJjNTM3MDVhN2VjZTQ0YTY5ODIzOGRiNzI3ZGRjYTQ3MCIsInVzZXJfaWQiOjF9.IK7xYunYZzEAtpueP9-ZnHCQRZtGFSHOdtY2Imy4_Gk",
+      "created_at": "2022-07-05T15:24:26.450Z",
+      "expires_at": "2022-10-13T15:24:26Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 127,
+    "fields": {
+      "user": 1,
+      "jti": "a75c90e9f3b0496086e030fe8d26822b",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NjE5MTk1NiwiaWF0IjoxNjU3NTUxOTU2LCJqdGkiOiJhNzVjOTBlOWYzYjA0OTYwODZlMDMwZmU4ZDI2ODIyYiIsInVzZXJfaWQiOjF9.I52EQqYFOxlnPEKaUOY0DL6tkskmE_yu5ZQaVGFhp8c",
+      "created_at": "2022-07-11T15:05:56.475Z",
+      "expires_at": "2022-10-19T15:05:56Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 128,
+    "fields": {
+      "user": 1,
+      "jti": "d5bc3fe1fa9a443abb541b3aa70e4d59",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NjE5MjMxNCwiaWF0IjoxNjU3NTUyMzE0LCJqdGkiOiJkNWJjM2ZlMWZhOWE0NDNhYmI1NDFiM2FhNzBlNGQ1OSIsInVzZXJfaWQiOjF9.AHvCpUQuUaugklKWtw96GwM8GfX2X88gcXQOApG-Vjw",
+      "created_at": "2022-07-11T15:11:54.714Z",
+      "expires_at": "2022-10-19T15:11:54Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 129,
+    "fields": {
+      "user": 1,
+      "jti": "11667d91c94d46ec8300ab57e12c1c1d",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NjE5NDIxMiwiaWF0IjoxNjU3NTU0MjEyLCJqdGkiOiIxMTY2N2Q5MWM5NGQ0NmVjODMwMGFiNTdlMTJjMWMxZCIsInVzZXJfaWQiOjF9.O2cwmAFRgEXj5S4HprL-MpRE-bC8aCbdLxik-1CAWQ0",
+      "created_at": "2022-07-11T15:43:32.535Z",
+      "expires_at": "2022-10-19T15:43:32Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 130,
+    "fields": {
+      "user": 1,
+      "jti": "9c8c8a1e90304dfb8cd6ba4c22dccd62",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NjE5NzM4MiwiaWF0IjoxNjU3NTU3MzgyLCJqdGkiOiI5YzhjOGExZTkwMzA0ZGZiOGNkNmJhNGMyMmRjY2Q2MiIsInVzZXJfaWQiOjF9.5p-BtZZddET_-Bf07CUbQT4v5YmruVczFHD2L2hVjDA",
+      "created_at": "2022-07-11T16:36:22.309Z",
+      "expires_at": "2022-10-19T16:36:22Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 131,
+    "fields": {
+      "user": 1,
+      "jti": "518c0ff9f44441ee81b6a1cba84a0848",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NjE5NzQzNiwiaWF0IjoxNjU3NTU3NDM2LCJqdGkiOiI1MThjMGZmOWY0NDQ0MWVlODFiNmExY2JhODRhMDg0OCIsInVzZXJfaWQiOjF9.8wsIhMKBLnXNmB59EURpEx-g3o-Xd3EGnoaJ3kuyAfA",
+      "created_at": "2022-07-11T16:37:16.004Z",
+      "expires_at": "2022-10-19T16:37:16Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 132,
+    "fields": {
+      "user": 1,
+      "jti": "4cfadc720e054f7985242201b8da405e",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NjE5NzQ1MSwiaWF0IjoxNjU3NTU3NDUxLCJqdGkiOiI0Y2ZhZGM3MjBlMDU0Zjc5ODUyNDIyMDFiOGRhNDA1ZSIsInVzZXJfaWQiOjF9.648QWWjdFrd2h9MFAKvPwhK5iMCCF1Q9vd4zWMKma1w",
+      "created_at": "2022-07-11T16:37:31.149Z",
+      "expires_at": "2022-10-19T16:37:31Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 133,
+    "fields": {
+      "user": 1,
+      "jti": "b52667d9d5994432b230df3183faffe6",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NjE5ODA4MiwiaWF0IjoxNjU3NTU4MDgyLCJqdGkiOiJiNTI2NjdkOWQ1OTk0NDMyYjIzMGRmMzE4M2ZhZmZlNiIsInVzZXJfaWQiOjF9.8zFIWJxstGaMuX6oP9c_lHQu8WwTrnEn9wREzIVWCQk",
+      "created_at": "2022-07-11T16:48:02.218Z",
+      "expires_at": "2022-10-19T16:48:02Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 134,
+    "fields": {
+      "user": 1,
+      "jti": "890d587469b84ff3b488999acee7e028",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NjE5ODExMiwiaWF0IjoxNjU3NTU4MTEyLCJqdGkiOiI4OTBkNTg3NDY5Yjg0ZmYzYjQ4ODk5OWFjZWU3ZTAyOCIsInVzZXJfaWQiOjF9.vkHGsAt4QxcHFg0ldNqJoeu1_KruUP2FK7O8QtK-Qik",
+      "created_at": "2022-07-11T16:48:32.205Z",
+      "expires_at": "2022-10-19T16:48:32Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 135,
+    "fields": {
+      "user": 1,
+      "jti": "370bc3c2b8734ea58e48c006584b6888",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NjE5ODE3NiwiaWF0IjoxNjU3NTU4MTc2LCJqdGkiOiIzNzBiYzNjMmI4NzM0ZWE1OGU0OGMwMDY1ODRiNjg4OCIsInVzZXJfaWQiOjF9.j6qu1U8q9gX5TPQjEDI0pdKt_bbr-ftvXmMW1g472w0",
+      "created_at": "2022-07-11T16:49:36.592Z",
+      "expires_at": "2022-10-19T16:49:36Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 136,
+    "fields": {
+      "user": 1,
+      "jti": "daaed039b6ee42ddb73b96b1cb6a6e65",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NjE5ODQxNiwiaWF0IjoxNjU3NTU4NDE2LCJqdGkiOiJkYWFlZDAzOWI2ZWU0MmRkYjczYjk2YjFjYjZhNmU2NSIsInVzZXJfaWQiOjF9.RahDi_69NXAj65_eRnOYldG7flrLgzLqX-T4iLLgFoE",
+      "created_at": "2022-07-11T16:53:36.160Z",
+      "expires_at": "2022-10-19T16:53:36Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 137,
+    "fields": {
+      "user": 1,
+      "jti": "4a3e0bd3140f41c4b33593ee5a11c081",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NjE5ODQzOSwiaWF0IjoxNjU3NTU4NDM5LCJqdGkiOiI0YTNlMGJkMzE0MGY0MWM0YjMzNTkzZWU1YTExYzA4MSIsInVzZXJfaWQiOjF9.NiIOq0-65nD8RwfQcZLfyzrjlsD4z5EERog4bpOWjAk",
+      "created_at": "2022-07-11T16:53:59.431Z",
+      "expires_at": "2022-10-19T16:53:59Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 138,
+    "fields": {
+      "user": 1,
+      "jti": "b100210fe07048ec8e267c030be30ac5",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NjE5ODQ1OCwiaWF0IjoxNjU3NTU4NDU4LCJqdGkiOiJiMTAwMjEwZmUwNzA0OGVjOGUyNjdjMDMwYmUzMGFjNSIsInVzZXJfaWQiOjF9.r8in8sjJqAc2hoRDRZIHKtS-246DxFt8eUvr8UGqcXs",
+      "created_at": "2022-07-11T16:54:18.773Z",
+      "expires_at": "2022-10-19T16:54:18Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 139,
+    "fields": {
+      "user": 1,
+      "jti": "298db5c3cb704093a5d9ff877fe567be",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NjE5ODQ3MiwiaWF0IjoxNjU3NTU4NDcyLCJqdGkiOiIyOThkYjVjM2NiNzA0MDkzYTVkOWZmODc3ZmU1NjdiZSIsInVzZXJfaWQiOjF9.ldnNQplaIUYwfYpUiUZDr48Yc0WQArkNV0B0lCeansI",
+      "created_at": "2022-07-11T16:54:32.968Z",
+      "expires_at": "2022-10-19T16:54:32Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 140,
+    "fields": {
+      "user": 1,
+      "jti": "3dccab34bc09425d8fffc516aff1ef82",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NjE5ODUwOSwiaWF0IjoxNjU3NTU4NTA5LCJqdGkiOiIzZGNjYWIzNGJjMDk0MjVkOGZmZmM1MTZhZmYxZWY4MiIsInVzZXJfaWQiOjF9.r-Z2UYe-uBlFYDvMIr7vlbGj6BpygLKJqHfovM3GQ4g",
+      "created_at": "2022-07-11T16:55:09.053Z",
+      "expires_at": "2022-10-19T16:55:09Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 141,
+    "fields": {
+      "user": 1,
+      "jti": "2c03d1018be848dead8f8db766f3d425",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NjE5ODUzMSwiaWF0IjoxNjU3NTU4NTMxLCJqdGkiOiIyYzAzZDEwMThiZTg0OGRlYWQ4ZjhkYjc2NmYzZDQyNSIsInVzZXJfaWQiOjF9.8fRaQVGrCubNUL3XMqk06aVCUR1oNoVUhC5Wt5YNiVw",
+      "created_at": "2022-07-11T16:55:31.997Z",
+      "expires_at": "2022-10-19T16:55:31Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 142,
+    "fields": {
+      "user": 1,
+      "jti": "1dc7e71d0f8d4dcea0f040294f4605b7",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NjE5ODYwNywiaWF0IjoxNjU3NTU4NjA3LCJqdGkiOiIxZGM3ZTcxZDBmOGQ0ZGNlYTBmMDQwMjk0ZjQ2MDViNyIsInVzZXJfaWQiOjF9.mXBg4AMp7ZeSs3uyDX3zaIcEMHLADyNXkS9HDQzE_eY",
+      "created_at": "2022-07-11T16:56:47.198Z",
+      "expires_at": "2022-10-19T16:56:47Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 143,
+    "fields": {
+      "user": 1,
+      "jti": "b03dde3cf26242b8b076ef29408235eb",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NjE5ODg0MSwiaWF0IjoxNjU3NTU4ODQxLCJqdGkiOiJiMDNkZGUzY2YyNjI0MmI4YjA3NmVmMjk0MDgyMzVlYiIsInVzZXJfaWQiOjF9.0wXpA5DCX3Kp3bl4fa3RJKql3M_DJvg6r2llw0cF47Q",
+      "created_at": "2022-07-11T17:00:41.401Z",
+      "expires_at": "2022-10-19T17:00:41Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 144,
+    "fields": {
+      "user": 1,
+      "jti": "d87bf181eb2e491c82465fd07570f8a6",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NjI3NTQ2NCwiaWF0IjoxNjU3NjM1NDY0LCJqdGkiOiJkODdiZjE4MWViMmU0OTFjODI0NjVmZDA3NTcwZjhhNiIsInVzZXJfaWQiOjF9.jyORDYXKOH6FpP73ibcJUOYPgfUtYTZSSiu9e8NX23A",
+      "created_at": "2022-07-12T14:17:44.383Z",
+      "expires_at": "2022-10-20T14:17:44Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 145,
+    "fields": {
+      "user": 1,
+      "jti": "c9b541d05251431993de1fa0f7944677",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NjM3MjY0NywiaWF0IjoxNjU3NzMyNjQ3LCJqdGkiOiJjOWI1NDFkMDUyNTE0MzE5OTNkZTFmYTBmNzk0NDY3NyIsInVzZXJfaWQiOjF9._z3hmHZxZmcmiMcDcQwOxcfLjPCBR9h0vb9I9rN7wz4",
+      "created_at": "2022-07-13T17:17:27.397Z",
+      "expires_at": "2022-10-21T17:17:27Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 146,
+    "fields": {
+      "user": 1,
+      "jti": "2e4e1d09efd14a54b9b973e594279432",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NjM3MzM1MCwiaWF0IjoxNjU3NzMzMzUwLCJqdGkiOiIyZTRlMWQwOWVmZDE0YTU0YjliOTczZTU5NDI3OTQzMiIsInVzZXJfaWQiOjF9.GfHIBk_JKHSg5-XnIkVAhNA6VOl8xazH_GP--497En8",
+      "created_at": "2022-07-13T17:29:10.124Z",
+      "expires_at": "2022-10-21T17:29:10Z"
+    }
+  },
+  {
+    "model": "methodist.department",
+    "pk": 1,
+    "fields": {
+      "name": "ДИЗАЙНУ"
+    }
+  },
+  {
+    "model": "methodist.department",
+    "pk": 2,
+    "fields": {
+      "name": "ЕКОНОМІКИ ТА ТУРИЗМУ"
+    }
+  },
+  {
+    "model": "methodist.department",
+    "pk": 3,
+    "fields": {
+      "name": "ПРОФЕСІЙНО-ТЕХНІЧНОЇ ОСВІТИ"
+    }
+  },
+  {
+    "model": "methodist.department",
+    "pk": 4,
+    "fields": {
+      "name": "ЮРИДИЧНЕ ВІДДІЛЕННЯ"
+    }
+  },
+  {
+    "model": "methodist.department",
+    "pk": 5,
+    "fields": {
+      "name": "КОМП'ЮТЕРНИХ ТА ВИДАВНИЧИХ ТЕХНОЛОГІЙ"
+    }
+  },
+  {
+    "model": "methodist.permissions",
+    "pk": 1,
+    "fields": {
+      "name": "Методист"
+    }
+  },
+  {
+    "model": "methodist.permissions",
+    "pk": 2,
+    "fields": {
+      "name": "Адміністрація"
+    }
+  },
+  {
+    "model": "methodist.permissions",
+    "pk": 3,
+    "fields": {
+      "name": "Викладач"
+    }
+  },
+  {
+    "model": "methodist.permissions",
+    "pk": 4,
+    "fields": {
+      "name": "Студент"
+    }
+  },
+  {
+    "model": "methodist.group",
+    "pk": 4,
+    "fields": {
+      "name": "КН-11",
+      "educational_program": 6
+    }
+  },
+  {
+    "model": "methodist.group",
+    "pk": 5,
+    "fields": {
+      "name": "КН-21",
+      "educational_program": 6
+    }
+  },
+  {
+    "model": "methodist.group",
+    "pk": 6,
+    "fields": {
+      "name": "КН-31",
+      "educational_program": 6
+    }
+  },
+  {
+    "model": "methodist.group",
+    "pk": 7,
+    "fields": {
+      "name": "КН-41",
+      "educational_program": 6
+    }
+  },
+  {
+    "model": "methodist.group",
+    "pk": 8,
+    "fields": {
+      "name": "КІ-11",
+      "educational_program": 7
+    }
+  },
+  {
+    "model": "methodist.group",
+    "pk": 9,
+    "fields": {
+      "name": "КІ-21",
+      "educational_program": 7
+    }
+  },
+  {
+    "model": "methodist.group",
+    "pk": 10,
+    "fields": {
+      "name": "В-11",
+      "educational_program": 8
+    }
+  },
+  {
+    "model": "methodist.group",
+    "pk": 11,
+    "fields": {
+      "name": "В-21",
+      "educational_program": 8
+    }
+  },
+  {
+    "model": "methodist.group",
+    "pk": 12,
+    "fields": {
+      "name": "В-31",
+      "educational_program": 8
+    }
+  },
+  {
+    "model": "methodist.group",
+    "pk": 13,
+    "fields": {
+      "name": "В-41",
+      "educational_program": 8
+    }
+  },
+  {
+    "model": "methodist.educationalprogram",
+    "pk": 1,
+    "fields": {
+      "name": "Готельно-ресторанна справа",
+      "department": 2
+    }
+  },
+  {
+    "model": "methodist.educationalprogram",
+    "pk": 2,
+    "fields": {
+      "name": "Фінанси, банківська справа та страхування",
+      "department": 2
+    }
+  },
+  {
+    "model": "methodist.educationalprogram",
+    "pk": 3,
+    "fields": {
+      "name": "Туризм",
+      "department": 2
+    }
+  },
+  {
+    "model": "methodist.educationalprogram",
+    "pk": 4,
+    "fields": {
+      "name": "Готельно-ресторанна справа",
+      "department": 2
+    }
+  },
+  {
+    "model": "methodist.educationalprogram",
+    "pk": 5,
+    "fields": {
+      "name": "Право. Фаховий молодший бакалавр",
+      "department": 4
+    }
+  },
+  {
+    "model": "methodist.educationalprogram",
+    "pk": 6,
+    "fields": {
+      "name": "Комп'ютерні науки",
+      "department": 5
+    }
+  },
+  {
+    "model": "methodist.educationalprogram",
+    "pk": 7,
+    "fields": {
+      "name": "Комп'ютерна інженерія",
+      "department": 5
+    }
+  },
+  {
+    "model": "methodist.educationalprogram",
+    "pk": 8,
+    "fields": {
+      "name": "Журналістика. ОПП Видавнича справа та редагування",
+      "department": 5
+    }
+  },
+  {
+    "model": "methodist.customuser",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$320000$ys3LEjBFlNdm2dA8aEax57$7uGOUUmcyVwxeCjKTRfVeLBaziXAaMgi3IbqxIsohl0=",
+      "last_login": "2022-07-12T14:18:28.502Z",
+      "is_superuser": true,
+      "username": "admin",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2022-03-15T11:49:21.106Z",
+      "surname": "Volodumyrovuch",
+      "group": 1,
+      "department": 5,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "methodist.customuser",
+    "pk": 6,
+    "fields": {
+      "password": "pbkdf2_sha256$320000$tUn7REIPDuVKvyb6yFUinI$Tgscy9zkqdnfRtKer65961dMZfroRv475TMKEpHV9MU=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "Vitaliy",
+      "first_name": "Vitaliy",
+      "last_name": "Zakharkiv",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2022-03-30T10:04:10.433Z",
+      "surname": "Volodumyrovuch",
+      "group": 4,
+      "department": 5,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "methodist.customuser",
+    "pk": 46,
+    "fields": {
+      "password": "pbkdf2_sha256$320000$I8ElJj6F7aRwa7vkNr2cfo$OXHTb8x+EVOm+0wJt7eq0nhx0sGjX1m4JC7ouBCuTlA=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "teach1",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2022-07-12T14:19:37.653Z",
+      "surname": "ed",
+      "group": 3,
+      "department": 5,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "methodist.student",
+    "pk": 2,
+    "fields": {
+      "user": 6,
+      "year_entry": "2021-05-07",
+      "group": 5,
+      "educational_program": 6,
+      "form_education": "Державна",
+      "update_at": "2022-05-07",
+      "telegram_id": 674197857
+    }
+  },
+  {
+    "model": "methodist.subject",
+    "pk": 25,
+    "fields": {
+      "name_subject": "математика (КН-11)",
+      "group": 4,
+      "hours": 45,
+      "loans": 22,
+      "semester": 1,
+      "educational_program": 6,
+      "final_semester": 2,
+      "form_of_control": "Екзамен",
+      "url_on_moodle": "http://localhost:8080/subjects",
+      "finally_subject": false,
+      "teachers": []
+    }
+  },
+  {
+    "model": "methodist.subject",
+    "pk": 26,
+    "fields": {
+      "name_subject": "українська мова (КН-11)",
+      "group": 4,
+      "hours": 26,
+      "loans": 13,
+      "semester": 1,
+      "educational_program": 6,
+      "final_semester": 1,
+      "form_of_control": "Екзамен",
+      "url_on_moodle": "http://localhost:8080/subjects",
+      "finally_subject": false,
+      "teachers": []
+    }
+  },
+  {
+    "model": "methodist.subject",
+    "pk": 27,
+    "fields": {
+      "name_subject": "історія (КН-11)",
+      "group": 4,
+      "hours": 48,
+      "loans": 24,
+      "semester": 1,
+      "educational_program": 6,
+      "final_semester": 1,
+      "form_of_control": "Залік",
+      "url_on_moodle": "http://localhost:8080/subjects",
+      "finally_subject": false,
+      "teachers": []
+    }
+  },
+  {
+    "model": "methodist.subject",
+    "pk": 28,
+    "fields": {
+      "name_subject": "англійська мова (КН-11)",
+      "group": 4,
+      "hours": 63,
+      "loans": 31,
+      "semester": 1,
+      "educational_program": 6,
+      "final_semester": 2,
+      "form_of_control": "Екзамен",
+      "url_on_moodle": "http://localhost:8080/subjects",
+      "finally_subject": false,
+      "teachers": []
+    }
+  },
+  {
+    "model": "methodist.subject",
+    "pk": 29,
+    "fields": {
+      "name_subject": "інформатика (КН-11)",
+      "group": 4,
+      "hours": 14,
+      "loans": 7,
+      "semester": 1,
+      "educational_program": 6,
+      "final_semester": 2,
+      "form_of_control": "Залік",
+      "url_on_moodle": "http://localhost:8080/subjects",
+      "finally_subject": false,
+      "teachers": []
+    }
+  },
+  {
+    "model": "methodist.subject",
+    "pk": 30,
+    "fields": {
+      "name_subject": "література (КН-11)",
+      "group": 4,
+      "hours": 48,
+      "loans": 24,
+      "semester": 1,
+      "educational_program": 6,
+      "final_semester": 1,
+      "form_of_control": "Екзамен",
+      "url_on_moodle": "http://localhost:8080/subjects",
+      "finally_subject": false,
+      "teachers": []
+    }
+  },
+  {
+    "model": "methodist.subject",
+    "pk": 31,
+    "fields": {
+      "name_subject": "фізкультура (КН-11)",
+      "group": 4,
+      "hours": 60,
+      "loans": 30,
+      "semester": 1,
+      "educational_program": 6,
+      "final_semester": 1,
+      "form_of_control": "Екзамен",
+      "url_on_moodle": "http://localhost:8080/subjects",
+      "finally_subject": false,
+      "teachers": []
+    }
+  },
+  {
+    "model": "methodist.subject",
+    "pk": 32,
+    "fields": {
+      "name_subject": "фізика (КН-11)",
+      "group": 4,
+      "hours": 46,
+      "loans": 23,
+      "semester": 1,
+      "educational_program": 6,
+      "final_semester": 2,
+      "form_of_control": "Екзамен",
+      "url_on_moodle": "http://localhost:8080/subjects",
+      "finally_subject": false,
+      "teachers": []
+    }
+  },
+  {
+    "model": "methodist.subject",
+    "pk": 33,
+    "fields": {
+      "name_subject": "фізика (КІ-11)",
+      "group": 8,
+      "hours": 42,
+      "loans": 21,
+      "semester": 1,
+      "educational_program": 7,
+      "final_semester": 1,
+      "form_of_control": "Залік",
+      "url_on_moodle": "http://localhost:8080/subjects",
+      "finally_subject": false,
+      "teachers": []
+    }
+  },
+  {
+    "model": "methodist.subject",
+    "pk": 34,
+    "fields": {
+      "name_subject": "українська мова (КІ-11)",
+      "group": 8,
+      "hours": 46,
+      "loans": 23,
+      "semester": 1,
+      "educational_program": 7,
+      "final_semester": 2,
+      "form_of_control": "Екзамен",
+      "url_on_moodle": "http://localhost:8080/subjects",
+      "finally_subject": false,
+      "teachers": []
+    }
+  },
+  {
+    "model": "methodist.subject",
+    "pk": 36,
+    "fields": {
+      "name_subject": "англійська мова (КІ-11)",
+      "group": 8,
+      "hours": 25,
+      "loans": 12,
+      "semester": 2,
+      "educational_program": 7,
+      "final_semester": 2,
+      "form_of_control": "Екзамен",
+      "url_on_moodle": "http://localhost:8080/subjects",
+      "finally_subject": false,
+      "teachers": []
+    }
+  },
+  {
+    "model": "methodist.subject",
+    "pk": 37,
+    "fields": {
+      "name_subject": "математика (КІ-11)",
+      "group": 8,
+      "hours": 43,
+      "loans": 21,
+      "semester": 1,
+      "educational_program": 7,
+      "final_semester": 1,
+      "form_of_control": "Екзамен",
+      "url_on_moodle": "http://localhost:8080/subjects",
+      "finally_subject": false,
+      "teachers": []
+    }
+  },
+  {
+    "model": "methodist.subject",
+    "pk": 38,
+    "fields": {
+      "name_subject": "біологія (КІ-11)",
+      "group": 8,
+      "hours": 53,
+      "loans": 26,
+      "semester": 1,
+      "educational_program": 7,
+      "final_semester": 2,
+      "form_of_control": "Екзамен",
+      "url_on_moodle": "http://localhost:8080/subjects",
+      "finally_subject": false,
+      "teachers": []
+    }
+  },
+  {
+    "model": "methodist.subject",
+    "pk": 39,
+    "fields": {
+      "name_subject": "хімія (КІ-11)",
+      "group": 8,
+      "hours": 44,
+      "loans": 22,
+      "semester": 1,
+      "educational_program": 7,
+      "final_semester": 2,
+      "form_of_control": "Залік",
+      "url_on_moodle": "http://localhost:8080/subjects",
+      "finally_subject": false,
+      "teachers": []
+    }
+  },
+  {
+    "model": "methodist.subject",
+    "pk": 40,
+    "fields": {
+      "name_subject": "географія (КІ-11)",
+      "group": 8,
+      "hours": 54,
+      "loans": 27,
+      "semester": 1,
+      "educational_program": 7,
+      "final_semester": 1,
+      "form_of_control": "Залік",
+      "url_on_moodle": "http://localhost:8080/subjects",
+      "finally_subject": false,
+      "teachers": []
+    }
+  },
+  {
+    "model": "methodist.subject",
+    "pk": 41,
+    "fields": {
+      "name_subject": "німецька мова (КІ-11)",
+      "group": 8,
+      "hours": 21,
+      "loans": 10,
+      "semester": 1,
+      "educational_program": 7,
+      "final_semester": 1,
+      "form_of_control": "Залік",
+      "url_on_moodle": "http://localhost:8080/subjects",
+      "finally_subject": false,
+      "teachers": []
+    }
+  },
+  {
+    "model": "methodist.subject",
+    "pk": 42,
+    "fields": {
+      "name_subject": "фізкультура (КІ-11)",
+      "group": 8,
+      "hours": 53,
+      "loans": 26,
+      "semester": 1,
+      "educational_program": 7,
+      "final_semester": 2,
+      "form_of_control": "Екзамен",
+      "url_on_moodle": "http://localhost:8080/subjects",
+      "finally_subject": false,
+      "teachers": []
+    }
+  },
+  {
+    "model": "methodist.subject",
+    "pk": 44,
+    "fields": {
+      "name_subject": "вища математика (КН-21)",
+      "group": 5,
+      "hours": 25,
+      "loans": 12,
+      "semester": 3,
+      "educational_program": 6,
+      "final_semester": 4,
+      "form_of_control": "Екзамен",
+      "url_on_moodle": "http://localhost:8080/subjects",
+      "finally_subject": true,
+      "teachers": []
+    }
+  },
+  {
+    "model": "methodist.subject",
+    "pk": 45,
+    "fields": {
+      "name_subject": "Основи програмування (КН-21)",
+      "group": 5,
+      "hours": 24,
+      "loans": 12,
+      "semester": 3,
+      "educational_program": 6,
+      "final_semester": 4,
+      "form_of_control": "Залік",
+      "url_on_moodle": "http://localhost:8080/subjects",
+      "finally_subject": true,
+      "teachers": []
+    }
+  },
+  {
+    "model": "methodist.subject",
+    "pk": 46,
+    "fields": {
+      "name_subject": "українська мова (КН-21)",
+      "group": 5,
+      "hours": 24,
+      "loans": 12,
+      "semester": 3,
+      "educational_program": 6,
+      "final_semester": 3,
+      "form_of_control": "Залік",
+      "url_on_moodle": "http://localhost:8080/subjects",
+      "finally_subject": false,
+      "teachers": []
+    }
+  },
+  {
+    "model": "methodist.subject",
+    "pk": 47,
+    "fields": {
+      "name_subject": "Перший проєкт (КН-21)",
+      "group": 5,
+      "hours": 24,
+      "loans": 12,
+      "semester": 4,
+      "educational_program": 6,
+      "final_semester": 4,
+      "form_of_control": "Курсова",
+      "url_on_moodle": "http://localhost:8080/subjects",
+      "finally_subject": true,
+      "teachers": []
+    }
+  },
+  {
+    "model": "methodist.subject",
+    "pk": 48,
+    "fields": {
+      "name_subject": "фізкультура (КН-21)",
+      "group": 5,
+      "hours": 13,
+      "loans": 6,
+      "semester": 3,
+      "educational_program": 6,
+      "final_semester": 4,
+      "form_of_control": "Залік",
+      "url_on_moodle": "http://localhost:8080/subjects",
+      "finally_subject": false,
+      "teachers": []
+    }
+  },
+  {
+    "model": "methodist.subject",
+    "pk": 49,
+    "fields": {
+      "name_subject": "англійська мова (КН-21)",
+      "group": 5,
+      "hours": 28,
+      "loans": 14,
+      "semester": 3,
+      "educational_program": 6,
+      "final_semester": 3,
+      "form_of_control": "Залік",
+      "url_on_moodle": "https://docs.djangoproject.com/en/4.0/ref/models/constraints/",
+      "finally_subject": false,
+      "teachers": []
+    }
+  },
+  {
+    "model": "methodist.subject",
+    "pk": 50,
+    "fields": {
+      "name_subject": "астрономія (КН-21)",
+      "group": 5,
+      "hours": 35,
+      "loans": 17,
+      "semester": 3,
+      "educational_program": 6,
+      "final_semester": 3,
+      "form_of_control": "Залік",
+      "url_on_moodle": "https://docs.djangoproject.com/en/4.0/ref/models/constraints/",
+      "finally_subject": false,
+      "teachers": []
+    }
+  },
+  {
+    "model": "methodist.subject",
+    "pk": 51,
+    "fields": {
+      "name_subject": "правознавство (КН-21)",
+      "group": 5,
+      "hours": 31,
+      "loans": 15,
+      "semester": 4,
+      "educational_program": 6,
+      "final_semester": 4,
+      "form_of_control": "Екзамен",
+      "url_on_moodle": "https://docs.djangoproject.com/en/4.0/ref/models/constraints/",
+      "finally_subject": false,
+      "teachers": []
+    }
+  },
+  {
+    "model": "methodist.subject",
+    "pk": 52,
+    "fields": {
+      "name_subject": "ВБА (КН-21)",
+      "group": 5,
+      "hours": 24,
+      "loans": 12,
+      "semester": 4,
+      "educational_program": 6,
+      "final_semester": 4,
+      "form_of_control": "Практика",
+      "url_on_moodle": "https://docs.djangoproject.com/en/4.0/ref/models/constraints/",
+      "finally_subject": true,
+      "teachers": []
+    }
+  },
+  {
+    "model": "methodist.subject",
+    "pk": 53,
+    "fields": {
+      "name_subject": "вища математика (КІ-21)",
+      "group": 9,
+      "hours": 24,
+      "loans": 12,
+      "semester": 3,
+      "educational_program": 7,
+      "final_semester": 4,
+      "form_of_control": "Екзамен",
+      "url_on_moodle": "https://docs.djangoproject.com/en/4.0/ref/models/constraints/",
+      "finally_subject": true,
+      "teachers": []
+    }
+  },
+  {
+    "model": "methodist.subject",
+    "pk": 54,
+    "fields": {
+      "name_subject": "історія (КІ-21)",
+      "group": 9,
+      "hours": 24,
+      "loans": 12,
+      "semester": 3,
+      "educational_program": 7,
+      "final_semester": 4,
+      "form_of_control": "Екзамен",
+      "url_on_moodle": "https://docs.djangoproject.com/en/4.0/ref/models/constraints/",
+      "finally_subject": false,
+      "teachers": []
+    }
+  },
+  {
+    "model": "methodist.subject",
+    "pk": 55,
+    "fields": {
+      "name_subject": "хімія (КІ-21)",
+      "group": 9,
+      "hours": 42,
+      "loans": 21,
+      "semester": 3,
+      "educational_program": 7,
+      "final_semester": 4,
+      "form_of_control": "Залік",
+      "url_on_moodle": "https://docs.djangoproject.com/en/4.0/ref/models/constraints/",
+      "finally_subject": false,
+      "teachers": []
+    }
+  },
+  {
+    "model": "methodist.subject",
+    "pk": 56,
+    "fields": {
+      "name_subject": "англійськи мова (КІ-21)",
+      "group": 9,
+      "hours": 52,
+      "loans": 26,
+      "semester": 3,
+      "educational_program": 7,
+      "final_semester": 4,
+      "form_of_control": "Залік",
+      "url_on_moodle": "https://docs.djangoproject.com/en/4.0/ref/models/constraints/",
+      "finally_subject": true,
+      "teachers": []
+    }
+  },
+  {
+    "model": "methodist.subject",
+    "pk": 57,
+    "fields": {
+      "name_subject": "філософія (КІ-21)",
+      "group": 9,
+      "hours": 42,
+      "loans": 21,
+      "semester": 3,
+      "educational_program": 7,
+      "final_semester": 4,
+      "form_of_control": "Залік",
+      "url_on_moodle": "https://docs.djangoproject.com/en/4.0/ref/models/constraints/",
+      "finally_subject": false,
+      "teachers": []
+    }
+  },
+  {
+    "model": "methodist.subject",
+    "pk": 58,
+    "fields": {
+      "name_subject": "мат аналіз (КІ-21)",
+      "group": 9,
+      "hours": 48,
+      "loans": 24,
+      "semester": 3,
+      "educational_program": 7,
+      "final_semester": 4,
+      "form_of_control": "Екзамен",
+      "url_on_moodle": "https://docs.djangoproject.com/en/4.0/ref/models/constraints/",
+      "finally_subject": false,
+      "teachers": []
+    }
+  },
+  {
+    "model": "methodist.subject",
+    "pk": 59,
+    "fields": {
+      "name_subject": "Алгоритми (КІ-21)",
+      "group": 9,
+      "hours": 36,
+      "loans": 18,
+      "semester": 4,
+      "educational_program": 7,
+      "final_semester": 4,
+      "form_of_control": "Залік",
+      "url_on_moodle": "https://docs.djangoproject.com/en/4.0/ref/models/constraints/",
+      "finally_subject": true,
+      "teachers": []
+    }
+  },
+  {
+    "model": "methodist.subject",
+    "pk": 60,
+    "fields": {
+      "name_subject": "ОС (КІ-21)",
+      "group": 9,
+      "hours": 24,
+      "loans": 12,
+      "semester": 3,
+      "educational_program": 7,
+      "final_semester": 4,
+      "form_of_control": "Залік",
+      "url_on_moodle": "https://docs.djangoproject.com/en/4.0/ref/models/constraints/",
+      "finally_subject": true,
+      "teachers": []
+    }
+  },
+  {
+    "model": "methodist.subject",
+    "pk": 61,
+    "fields": {
+      "name_subject": "лінійна математика (КІ-21)",
+      "group": 9,
+      "hours": 24,
+      "loans": 12,
+      "semester": 3,
+      "educational_program": 7,
+      "final_semester": 4,
+      "form_of_control": "Екзамен",
+      "url_on_moodle": "https://docs.djangoproject.com/en/4.0/ref/models/constraints/",
+      "finally_subject": false,
+      "teachers": []
+    }
+  },
+  {
+    "model": "methodist.rating",
+    "pk": 278,
+    "fields": {
+      "user": 2,
+      "subject": 51,
+      "date_rating": "2022-07-12",
+      "rating_5": 2,
+      "rating_12": null,
+      "retransmission": false,
+      "credited": false,
+      "semester": 2,
+      "is_annual_assessment": false,
+      "teacher": 46
+    }
+  },
+  {
+    "model": "methodist.rating",
+    "pk": 279,
+    "fields": {
+      "user": 2,
+      "subject": 51,
+      "date_rating": "2022-07-12",
+      "rating_5": 3,
+      "rating_12": null,
+      "retransmission": false,
+      "credited": false,
+      "semester": 1,
+      "is_annual_assessment": false,
+      "teacher": 46
+    }
+  },
+  {
+    "model": "methodist.extrapoints",
+    "pk": 22,
+    "fields": {
+      "user": 2,
+      "semester": 4,
+      "point": "0.10",
+      "text": "e32"
+    }
+  },
+  {
+    "model": "student.studentsource",
+    "pk": 60,
+    "fields": {
+      "student": 2,
+      "file": "student/image/Vitaliy/завантаження_2eqv6zQ.jpeg",
+      "semester": 2,
+      "type_file": "Audio",
+      "created_at": "2022-07-01T09:40:48.408Z"
+    }
+  },
+  {
+    "model": "student.studentsource",
+    "pk": 61,
+    "fields": {
+      "student": 2,
+      "file": "student/image/Vitaliy/завантаження_srAMVTW.jpeg",
+      "semester": 2,
+      "type_file": "Audio",
+      "created_at": "2022-07-01T09:41:04.156Z"
+    }
+  }
+]
