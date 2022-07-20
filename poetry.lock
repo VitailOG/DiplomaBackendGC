@@ -463,14 +463,6 @@ gmpy = ["gmpy"]
 gmpy2 = ["gmpy2"]
 
 [[package]]
-name = "et-xmlfile"
-version = "1.1.0"
-description = "An implementation of lxml.xmlfile for the standard library"
-category = "main"
-optional = false
-python-versions = ">=3.6"
-
-[[package]]
 name = "faker"
 version = "12.0.1"
 description = "Faker is a Python package that generates fake data for you."
@@ -746,17 +738,6 @@ optional = false
 python-versions = ">=3.8"
 
 [[package]]
-name = "openpyxl"
-version = "3.0.10"
-description = "A Python library to read/write Excel 2010 xlsx/xlsm files"
-category = "main"
-optional = false
-python-versions = ">=3.6"
-
-[package.dependencies]
-et-xmlfile = "*"
-
-[[package]]
 name = "packaging"
 version = "21.3"
 description = "Core utilities for Python packages"
@@ -889,14 +870,6 @@ crypto = ["cryptography (>=3.3.1)"]
 dev = ["sphinx", "sphinx-rtd-theme", "zope.interface", "cryptography (>=3.3.1)", "pytest (>=6.0.0,<7.0.0)", "coverage[toml] (==5.0.4)", "mypy", "pre-commit"]
 docs = ["sphinx", "sphinx-rtd-theme", "zope.interface"]
 tests = ["pytest (>=6.0.0,<7.0.0)", "coverage[toml] (==5.0.4)"]
-
-[[package]]
-name = "pympler"
-version = "1.0.1"
-description = "A development tool to measure, monitor and analyze the memory behavior of Python objects."
-category = "main"
-optional = false
-python-versions = ">=3.6"
 
 [[package]]
 name = "pyparsing"
@@ -1242,7 +1215,7 @@ testing = ["coverage (>=5.0.3)", "zope.event", "zope.testing"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.10"
-content-hash = "af3de1ec74fa694c70c339eeae91dfeaeed61377808c2122d01ad3027fe4a9b8"
+content-hash = "42f43ac5434220b4e6fc117e9e98e5c394237be6c2bda01d5938cc4e91e93ee4"
 
 [metadata.files]
 aiogram = [
@@ -1441,7 +1414,6 @@ ecdsa = [
     {file = "ecdsa-0.17.0-py2.py3-none-any.whl", hash = "sha256:5cf31d5b33743abe0dfc28999036c849a69d548f994b535e527ee3cb7f3ef676"},
     {file = "ecdsa-0.17.0.tar.gz", hash = "sha256:b9f500bb439e4153d0330610f5d26baaf18d17b8ced1bc54410d189385ea68aa"},
 ]
-et-xmlfile = []
 faker = [
     {file = "Faker-12.0.1-py3-none-any.whl", hash = "sha256:1dc2811f20e163892fefe7006f2ce00778f8099a40aee265bfa60a13400de63d"},
     {file = "Faker-12.0.1.tar.gz", hash = "sha256:aa7103805ae793277abbb85da9f6f05e76a1a295a9384a8e17c2fba2b3a690cb"},
@@ -1759,7 +1731,6 @@ numpy = [
     {file = "numpy-1.22.4-pp38-pypy38_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:0791fbd1e43bf74b3502133207e378901272f3c156c4df4954cad833b1380207"},
     {file = "numpy-1.22.4.zip", hash = "sha256:425b390e4619f58d8526b3dcf656dde069133ae5c240229821f01b5f44ea07af"},
 ]
-openpyxl = []
 packaging = [
     {file = "packaging-21.3-py3-none-any.whl", hash = "sha256:ef103e05f519cdc783ae24ea4e2e0f508a9c99b2d4969652eed6a2e1ea5bd522"},
     {file = "packaging-21.3.tar.gz", hash = "sha256:dd47c42927d89ab911e606518907cc2d3a1f38bbd026385970643f9c5b8ecfeb"},
@@ -1901,7 +1872,6 @@ pyjwt = [
     {file = "PyJWT-2.3.0-py3-none-any.whl", hash = "sha256:e0c4bb8d9f0af0c7f5b1ec4c5036309617d03d56932877f2f7a0beeb5318322f"},
     {file = "PyJWT-2.3.0.tar.gz", hash = "sha256:b888b4d56f06f6dcd777210c334e69c737be74755d3e5e9ee3fe67dc18a0ee41"},
 ]
-pympler = []
 pyparsing = [
     {file = "pyparsing-3.0.7-py3-none-any.whl", hash = "sha256:a6c06a88f252e6c322f65faf8f418b16213b51bdfaece0524c1c1bc30c63c484"},
     {file = "pyparsing-3.0.7.tar.gz", hash = "sha256:18ee9022775d270c55187733956460083db60b37d0d0fb357445f3094eed3eea"},

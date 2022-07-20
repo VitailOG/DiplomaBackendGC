@@ -28,9 +28,7 @@ redis = "^4.3.4"
 locust = "^2.10.1"
 psycopg2 = "^2.9.3"
 python-dotenv = "^0.20.0"
-openpyxl = "^3.0.10"
 XlsxWriter = "^3.0.3"
-Pympler = "^1.0.1"
 
 [tool.poetry.dev-dependencies]
 
