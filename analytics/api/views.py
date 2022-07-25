@@ -4,7 +4,6 @@ from django.http import HttpResponse
 from ninja import Router
 
 from analytics.exceptions import DoesNotRegister
-from analytics.services import HandlerFactory
 from analytics.tasks import generate_analytics_file
 from analytics.types import RATING_SYS
 from student.security import AuthBearer
@@ -41,7 +40,6 @@ def create_group_by_subject(request, request_data: GenerateFileRequestSchema):
     name = data.pop('type_file')  # remove and get type file
 
     try:
-        # HandlerFactory.handler(name, **data)()
         generate_analytics_file.apply_async(args=(name, data))
     except DoesNotRegister:
         return {"Error": True}

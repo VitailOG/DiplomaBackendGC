@@ -923,6 +923,7 @@ docs = ["sphinx", "sphinx-rtd-theme", "zope.interface"]
 tests = ["pytest (>=6.0.0,<7.0.0)", "coverage[toml] (==5.0.4)"]
 
 [[package]]
+<<<<<<< HEAD
 name = "pymongo"
 version = "4.2.0"
 description = "Python driver for MongoDB <http://www.mongodb.org>"
@@ -941,6 +942,14 @@ ocsp = ["pyopenssl (>=17.2.0)", "requests (<3.0.0)", "service-identity (>=18.1.0
 snappy = ["python-snappy"]
 srv = ["dnspython (>=1.16.0,<3.0.0)"]
 zstd = ["zstandard"]
+=======
+name = "pympler"
+version = "1.0.1"
+description = "A development tool to measure, monitor and analyze the memory behavior of Python objects."
+category = "main"
+optional = false
+python-versions = ">=3.6"
+>>>>>>> origin/main
 
 [[package]]
 name = "pyparsing"
@@ -1294,7 +1303,11 @@ testing = ["coverage (>=5.0.3)", "zope.event", "zope.testing"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.10"
+<<<<<<< HEAD
 content-hash = "2e70e1685506efa76f1629fd6b5ac4443b0a5d89f143a92578b27f0606b23f9a"
+=======
+content-hash = "af3de1ec74fa694c70c339eeae91dfeaeed61377808c2122d01ad3027fe4a9b8"
+>>>>>>> origin/main
 
 [metadata.files]
 aiogram = [
@@ -1954,7 +1967,11 @@ pyjwt = [
     {file = "PyJWT-2.3.0-py3-none-any.whl", hash = "sha256:e0c4bb8d9f0af0c7f5b1ec4c5036309617d03d56932877f2f7a0beeb5318322f"},
     {file = "PyJWT-2.3.0.tar.gz", hash = "sha256:b888b4d56f06f6dcd777210c334e69c737be74755d3e5e9ee3fe67dc18a0ee41"},
 ]
+<<<<<<< HEAD
 pymongo = []
+=======
+pympler = []
+>>>>>>> origin/main
 pyparsing = [
     {file = "pyparsing-3.0.7-py3-none-any.whl", hash = "sha256:a6c06a88f252e6c322f65faf8f418b16213b51bdfaece0524c1c1bc30c63c484"},
     {file = "pyparsing-3.0.7.tar.gz", hash = "sha256:18ee9022775d270c55187733956460083db60b37d0d0fb357445f3094eed3eea"},

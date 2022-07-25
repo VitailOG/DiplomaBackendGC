@@ -128,7 +128,7 @@ class ExcelCreator(BaseCreator):
         ).reset_index(
             drop=True
         )
-        async_to_sync(save_message)(self.user_id, 'rating aggregation')
+        async_to_sync(save_message)('rating aggregation')
 
         ready_df.index = self._set_index(ready_df.index.stop)
 
@@ -137,7 +137,7 @@ class ExcelCreator(BaseCreator):
         ).agg(
             {rating_ua: ['mean', 'median'], "Перездача": 'sum', 'Зараховано': 'sum'}
         ).rename(columns={rating_ua: 'Оцінки', 'mean': 'Середній бал', 'median': 'Медіана', 'sum': 'Кількість'})
-        async_to_sync(save_message)(self.user_id, 'common aggregation')
+        async_to_sync(save_message)('common aggregation')
 
         merged_df['Перездача'] = merged_df['Перездача'].apply(lambda x: 'Так' if x else 'Ні')
         merged_df['Зараховано'] = merged_df['Зараховано'].apply(lambda x: 'Так' if x else 'Ні')

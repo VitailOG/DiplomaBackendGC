@@ -28,9 +28,15 @@ redis = "^4.3.4"
 locust = "^2.10.1"
 psycopg2 = "^2.9.3"
 python-dotenv = "^0.20.0"
+<<<<<<< HEAD
 XlsxWriter = "^3.0.3"
 beanie = "^1.11.6"
 pymongo = {extras = ["srv"], version = "^4.2.0"}
+=======
+openpyxl = "^3.0.10"
+XlsxWriter = "^3.0.3"
+Pympler = "^1.0.1"
+>>>>>>> origin/main
 
 [tool.poetry.dev-dependencies]
 
