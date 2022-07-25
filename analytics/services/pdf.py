@@ -6,3 +6,6 @@ class PdfCreator(BaseCreator):
 
     def save(self):
         raise NotImplementedError
+
+    def __call__(self):
+        raise NotImplementedError

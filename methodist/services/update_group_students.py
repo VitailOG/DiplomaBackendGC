@@ -93,4 +93,5 @@ class UpdateGroupStudentService:
                 student.group = None
                 student.update_at = timezone.now().date()
 
+        # todo write to message
         Student.objects.bulk_update(self.students, fields=['group', 'update_at'])

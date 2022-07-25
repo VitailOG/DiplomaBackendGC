@@ -5,6 +5,7 @@ from ninja import Router
 
 from analytics.exceptions import DoesNotRegister
 from analytics.services import HandlerFactory
+from analytics.tasks import generate_analytics_file
 from analytics.types import RATING_SYS
 from student.security import AuthBearer
 
@@ -35,11 +36,13 @@ def group_detail(request, group_id: int, subject_id: int, rating_sys: RATING_SYS
 @api.post('/analytic-group-by-subject/')
 def create_group_by_subject(request, request_data: GenerateFileRequestSchema):
     data = request_data.dict()
-    data['user'] = request.auth  # set user in data
+    data['username'] = request.auth.username  # set user in data
+    data['user_id'] = request.auth.id  # set user in data
     name = data.pop('type_file')  # remove and get type file
 
     try:
-        HandlerFactory.handler(name, **data)()
+        # HandlerFactory.handler(name, **data)()
+        generate_analytics_file.apply_async(args=(name, data))
     except DoesNotRegister:
         return {"Error": True}
 
@@ -49,13 +52,13 @@ def create_group_by_subject(request, request_data: GenerateFileRequestSchema):
 @api.post('/download-file/')
 def download_file(request, filename: str):
     file = Path(filename)
+
     if not (file.exists() or file.is_file()):
         return {"message": "file not exist or not file"}
 
-    name = Path(filename).name
-    res = Path(filename).open('rb')
+    name = file.name
+    res = file.open('rb')
 
     response = HttpResponse(res, content_type='audio/mpeg')
     response['Content-Disposition'] = 'attachment; filename="' + name + '"'
     return response
-
